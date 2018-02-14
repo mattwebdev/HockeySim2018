@@ -45,17 +45,22 @@ public class Game {
         away.add(p8);
         away.add(p9);
         away.add(p10);
-        FSM gamesim = new FSM(home, away, p11, p12);
+        SQLiteJDBCDriverConnection.createNewDatabase();
+        //SQLiteJDBCDriverConnection.connect();
+        //PlayerGen.populatePlayerDB(100);
+        //TeamGen.buildTeam(1);
+        // TeamGen.buildTeam(2);
+        //TeamDb.assignLinesDefault(1);
+        //TeamDb.assignLinesDefault(2);
+        Player homeGoalie = PlayerDb.getPlayer(TeamDb.getPlayerAtPosition(1,"G1"));
+        Player awayGoalie = PlayerDb.getPlayer(TeamDb.getPlayerAtPosition(2, "G1"));
+        FSM gamesim = new FSM(TeamDb.getline(1, 1), TeamDb.getline(2,1),
+            homeGoalie, awayGoalie,1, 1);
+        //FSM gamesim = new FSM(home, away, p11, p12);
         /*
             Connect to SQLite database
          */
-        SQLiteJDBCDriverConnection.createNewDatabase();
-        SQLiteJDBCDriverConnection.connect();
-        PlayerGen.populatePlayerDB(80);
-        //ArrayList<Integer> pids = PlayerDb.getUnassignedPlayers();
-        TeamGen.buildTeam(1);
-        TeamDb.assignLinesDefault(1);
-        System.out.println(TeamDb.getline(1, 1).get(0).getName());
+
         gamesim.setState(new Faceoff(home, away, gamesim));
         for(int i=0; i<= 720; i++)
             gamesim.update();

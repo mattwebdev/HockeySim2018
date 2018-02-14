@@ -1,5 +1,8 @@
 package database;
 
+import startup.PlayerGen;
+import startup.TeamGen;
+
 import java.io.File;
 import java.sql.*;
 
@@ -44,11 +47,19 @@ public class SQLiteJDBCDriverConnection {
                 System.out.println("The driver name is " + meta.getDriverName());
                 System.out.println("A new database has been created.");
                 createTables();
+                doInitalRoutines();
             }
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
+    }
+    private static void doInitalRoutines(){
+        PlayerGen.populatePlayerDB(100);
+        TeamGen.buildTeam(1);
+        TeamGen.buildTeam(2);
+        TeamDb.assignLinesDefault(1);
+        TeamDb.assignLinesDefault(2);
     }
     private static void createTables(){
         String url = "jdbc:sqlite:C://sqlite/dbs/hockeyDb.db";

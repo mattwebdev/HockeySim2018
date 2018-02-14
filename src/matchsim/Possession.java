@@ -17,7 +17,7 @@ public class Possession implements State {
     private static final int BASE_PASS_VARIATION = 30;
 
     private static final int BASE_SHOOT_SUCCESS = 15;
-    private static final int BASE_SHOOT_VARIATION = 20;
+    private static final int BASE_SHOOT_VARIATION = 10;
 
     private static final int BASE_CLEAR_SUCCESS = 40;
     private static final int BASE_CLEAR_VARIATION = 40;
@@ -53,10 +53,17 @@ public class Possession implements State {
     public int getPossessorTeam(){
         return possessor.getTeamID();
     }
-    public void setLines(ArrayList<Player> possessorTeam, ArrayList<Player> enemyTeam){
-        this.possessorTeam = possessorTeam;
-        this.possessor = possessorTeam.get(rand.nextInt(possessorTeam.size()));
-        this.enemyTeam = enemyTeam;
+    public void setLines(ArrayList<Player> change1, ArrayList<Player> change2){
+        if(possessorTeam.get(0).getTeamID() == change1.get(0).getTeamID()) {
+            this.possessorTeam = change1;
+            this.possessor = possessorTeam.get(rand.nextInt(possessorTeam.size()));
+            this.enemyTeam = change2;
+        }
+        else{
+            this.possessorTeam = change2;
+            this.possessor = possessorTeam.get(rand.nextInt(possessorTeam.size()));
+            this.enemyTeam = change1;
+        }
     }
     /*
     Sets the success value for each event
@@ -158,16 +165,16 @@ public class Possession implements State {
                 break;
             case 0:
                 retainChance = 35;
-                passChance = 35;
+                passChance = 39;
                 clearChance = 15;
-                shootChance = 14;
+                shootChance = 10;
                 penaltyChance = 1;
                 break;
             case 1:
-                retainChance = 38;
+                retainChance = 35;
                 passChance = 35;
-                clearChance = 20;
-                shootChance = 6;
+                clearChance = 15;
+                shootChance = 14;
                 penaltyChance = 1;
                 break;
             case 2:

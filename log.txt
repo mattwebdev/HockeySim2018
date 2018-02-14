@@ -1,716 +1,714 @@
-0:00 --- John(Home) won the faceoff
-0:05 --- Johnscores!
-0:10 --- Tom(Away) won the faceoff
-0:15 --- Erik does not retain puck.
-0:20 --- Nathan fails passing puck
-0:25 --- Erik misses net!
-0:30 --- Anders passes puck
-0:35 --- Sam passes puck
-0:40 --- Michael fails clearing puck.
-0:45 --- Aaron does not retain puck.
-0:50 --- Nathan clears puck.
-0:55 --- Anders fails passing puck
-1:00 --- Erik fails clearing puck.
-1:05 --- Anders does not retain puck.
-1:10 --- Sam fails passing puck
-1:15 --- Theo clears puck.
-1:20 --- Tom clears puck.
-1:25 --- Erik retains puck
-1:30 --- Erik passes puck
-1:35 --- Aaron passes puck
-1:40 --- Tom clears puck.
-1:45 --- Anders retains puck
-1:50 --- Anders passes puck
-1:55 --- Nathan fails clearing puck.
-2:00 --- Aaron passes puck
-2:05 --- Aaron does not retain puck.
-2:10 --- Nathan passes puck
-2:15 --- Nathan retains puck
-2:20 --- Nathanscores!
-2:25 --- John(Home) won the faceoff
-2:30 --- Sam passes puck
-2:35 --- Michael retains puck
-2:40 --- Michael retains puck
-2:45 --- Michael passes puck
-2:50 --- John clears puck.
-2:55 --- Michael does not retain puck.
-3:00 --- Tom retains puck
-3:05 --- Tom retains puck
-3:10 --- Tom fails passing puck
-3:15 --- Anders retains puck
-3:20 --- Anders passes puck
-3:25 --- John passes puck
-3:30 --- Nathan misses net!
-3:35 --- Erik passes puck
-3:40 --- Aaron retains puck
-3:45 --- Aaron passes puck
-3:50 --- Theo does not retain puck.
-3:55 --- John retains puck
-4:00 --- John retains puck
-4:05 --- John retains puck
-4:10 --- John does not retain puck.
-4:15 --- Aaron passes puck
-4:20 --- Aaron fails clearing puck.
-4:25 --- Michael fails clearing puck.
-4:30 --- Erik retains puck
-4:35 --- Erik passes puck
-4:40 --- Sam passes puck
-4:45 --- John clears puck.
-4:50 --- Nathan passes puck
-4:55 --- Michael passes puck
-5:00 --- John does not retain puck.
-5:05 --- Mikko clears puck.
-5:10 --- Mikko retains puck
-5:15 --- Nathan passes puck
-5:20 --- Sam misses net!
-5:25 --- Theo passes puck
-5:30 --- Aaron passes puck
-5:35 --- Erik clears puck.
-5:40 --- Tom passes puck
-5:45 --- Aaron fails passing puck
-5:50 --- Sam retains puck
-5:55 --- Sam fails clearing puck.
-6:00 --- Aaron fails clearing puck.
-6:05 --- Michael retains puck
-6:10 --- Michael fails clearing puck.
-6:15 --- Theo does not retain puck.
-6:20 --- Nathan retains puck
-6:25 --- Sam retains puck
-6:30 --- Sam fails clearing puck.
-6:35 --- Theo fails clearing puck.
-6:40 --- Anders passes puck
-6:45 --- Sam clears puck.
-6:50 --- Michael does not retain puck.
-6:55 --- Erik does not retain puck.
-7:00 --- Michael retains puck
-7:05 --- Michael misses net!
-7:10 --- Tom passes puck
-7:15 --- Theo retains puck
-7:20 --- Theo misses net!
-7:25 --- Anders retains puck
-7:30 --- Anders does not retain puck.
-7:35 --- Sam misses net!
-7:40 --- Theo retains puck
-7:45 --- Theo retains puck
-7:50 --- Theo retains puck
-7:55 --- Theo does not retain puck.
-8:00 --- Michael fails passing puck
-8:05 --- Tom retains puck
-8:10 --- John retains puck
-8:15 --- John does not retain puck.
-8:20 --- Mikko passes puck
-8:25 --- Theo passes puck
-8:30 --- Aaron fails passing puck
-8:35 --- Anders fails clearing puck.
-8:40 --- Theo fails passing puck
-8:45 --- Sam passes puck
-8:50 --- Michael retains puck
-8:55 --- Michael does not retain puck.
-9:00 --- Erik does not retain puck.
-9:05 --- Anders passes puck
-9:10 --- Sam fails clearing puck.
-9:15 --- Tom passes puck
-9:20 --- Nathan passes puck
-9:25 --- John does not retain puck.
-9:30 --- Erik retains puck
-9:35 --- Erik passes puck
-9:40 --- Theo passes puck
-9:45 --- Tom does not retain puck.
-9:50 --- John fails clearing puck.
-9:55 --- Anders retains puck
-10:00 --- Anders fails clearing puck.
-10:05 --- Theo passes puck
-10:10 --- Tom passes puck
-10:15 --- Aaron fails passing puck
-10:20 --- Michael passes puck
-10:25 --- Anders passes puck
-10:30 --- Nathan retains puck
-10:35 --- Nathan retains puck
-10:40 --- Nathan does not retain puck.
-10:45 --- Theo retains puck
-10:50 --- Theo fails passing puck
-10:55 --- Nathan passes puck
-11:00 --- Anders fails clearing puck.
-11:05 --- John fails clearing puck.
-11:10 --- Aaron passes puck
-11:15 --- Aaron fails clearing puck.
-11:20 --- Nathan does not retain puck.
-11:25 --- Aaron misses net!
-11:30 --- John retains puck
-11:35 --- John passes puck
-11:40 --- Sam fails passing puck
-11:45 --- Mikko misses net!
-11:50 --- Nathan passes puck
-11:55 --- Michael retains puck
-12:00 --- Michael retains puck
-12:05 --- Michael passes puck
-12:10 --- Nathan does not retain puck.
-12:15 --- Michael misses net!
-12:20 --- Aaron retains puck
-12:25 --- Aaron fails passing puck
-12:30 --- Anders passes puck
-12:35 --- Michael passes puck
-12:40 --- Anders passes puck
-12:45 --- Nathan retains puck
-12:50 --- Michael retains puck
-12:55 --- Michael does not retain puck.
-13:00 --- Tom does not retain puck.
-13:05 --- Michael passes puck
-13:10 --- Sam fails clearing puck.
-13:15 --- Theo clears puck.
-13:20 --- Erik retains puck
-13:25 --- Anders passes puck
-13:30 --- John passes puck
-13:35 --- Sam retains puck
-13:40 --- Sam passes puck
-13:45 --- Anders retains puck
-13:50 --- Anders passes puck
-13:55 --- Michael fails clearing puck.
-14:00 --- Anders passes puck
-14:05 --- Michael passes puck
-14:10 --- Michael fails clearing puck.
-14:15 --- Theo does not retain puck.
-14:20 --- Sam passes puck
-14:25 --- Nathan fails clearing puck.
-14:30 --- Erik passes puck
-14:35 --- Sam passes puck
-14:40 --- Nathan passes puck
-14:45 --- Anders does not retain puck.
-14:50 --- Theo passes puck
-14:55 --- Mikko fails clearing puck.
-15:00 --- Michael fails clearing puck.
-15:05 --- Tom clears puck.
-15:10 --- John retains puck
-15:15 --- John clears puck.
-15:20 --- Nathan passes puck
-15:25 --- Anders fails passing puck
-15:30 --- Theo passes puck
-15:35 --- Aaron passes puck
-15:40 --- Mikko misses net!
-15:45 --- Anders passes puck
-15:50 --- Michael passes puck
-15:55 --- John retains puck
-16:00 --- John passes puck
-16:05 --- Nathan retains puck
-16:10 --- Nathan passes puck
-16:15 --- Michael retains puck
-16:20 --- John clears puck.
-16:25 --- Anders passes puck
-16:30 --- Nathan clears puck.
-16:35 --- Nathan does not retain puck.
-16:40 --- Aaron retains puck
-16:45 --- Aaron does not retain puck.
-16:50 --- John passes puck
-16:55 --- Michael does not retain puck.
-17:00 --- Theo retains puck
-17:05 --- Theo does not retain puck.
-17:10 --- Sam misses net!
-17:15 --- Theo retains puck
-17:20 --- Theo passes puck
-17:25 --- Mikko passes puck
-17:30 --- Anders misses net!
-17:35 --- Erik retains puck
-17:40 --- Erik passes puck
-17:45 --- Tom does not retain puck.
-17:50 --- Michael does not retain puck.
-17:55 --- Aaron misses net!
-18:00 --- Sam misses net!
-18:05 --- Anders passes puck
-18:10 --- John passes puck
-18:15 --- John retains puck
-18:20 --- John clears puck.
-18:25 --- Sam passes puck
-18:30 --- Anders retains puck
-18:35 --- Anders passes puck
-18:40 --- Nathan passes puck
-18:45 --- Michael passes puck
-18:50 --- Sam fails clearing puck.
-18:55 --- Theo passes puck
-19:00 --- Erik retains puck
-19:05 --- Erik clears puck.
-19:10 --- Theo retains puck
-19:15 --- Sam does not retain puck.
-19:20 --- Theo passes puck
-19:25 --- Theo passes puck
-19:30 --- Aaron misses net!
-19:35 --- John retains puck
-19:40 --- John fails passing puck
-19:45 --- Mikko retains puck
-19:50 --- Sam passes puck
-19:55 --- Nathan retains puck
-20:00 --- Nathan fails clearing puck.
-20:05 --- Tom fails passing puck
-20:10 --- John passes puck
-20:15 --- Nathan fails passing puck
-20:20 --- Theo does not retain puck.
-20:25 --- John retains puck
-20:30 --- John passes puck
-20:35 --- Anders fails clearing puck.
-20:40 --- Erik fails clearing puck.
-20:45 --- Michael passes puck
-20:50 --- Sam fails passing puck
-20:55 --- Theo fails passing puck
-21:00 --- Nathan passes puck
-21:05 --- Sam retains puck
-21:10 --- Sam retains puck
-21:15 --- Sam does not retain puck.
-21:20 --- Theo does not retain puck.
-21:25 --- Anders passes puck
-21:30 --- Michael passes puck
-21:35 --- John does not retain puck.
-21:40 --- Tom fails passing puck
-21:45 --- Sam passes puck
-21:50 --- Sam fails clearing puck.
-21:55 --- Erik fails clearing puck.
-22:00 --- Anders retains puck
-22:05 --- Anders fails clearing puck.
-22:10 --- Anders passes puck
-22:15 --- John does not retain puck.
-22:20 --- Aaron does not retain puck.
-22:25 --- John passes puck
-22:30 --- Nathan clears puck.
-22:35 --- Michael does not retain puck.
-22:40 --- Aaron retains puck
-22:45 --- Sam retains puck
-22:50 --- Sam fails clearing puck.
-22:55 --- Aaron passes puck
-23:00 --- Tom does not retain puck.
-23:05 --- Nathan fails passing puck
-23:10 --- Mikko passes puck
-23:15 --- Mikko fails passing puck
-23:20 --- John retains puck
-23:25 --- John passes puck
-23:30 --- Anders passes puck
-23:35 --- Michael retains puck
-23:40 --- Michael misses net!
-23:45 --- Erik fails passing puck
-23:50 --- Nathan retains puck
-23:55 --- Nathan passes puck
-24:00 --- Nathan retains puck
-24:05 --- Nathan passes puck
-24:10 --- John fails clearing puck.
-24:15 --- Aaron retains puck
-24:20 --- Aaron fails passing puck
-24:25 --- Sam retains puck
-24:30 --- Sam passes puck
-24:35 --- Nathan misses net!
-24:40 --- Erik passes puck
-24:45 --- Theo clears puck.
-24:50 --- Aaron clears puck.
-24:55 --- Aaron fails clearing puck.
-25:00 --- Nathan clears puck.
-25:05 --- Anders clears puck.
-25:10 --- Michael passes puck
-25:15 --- Sam passes puck
-25:20 --- Sam fails clearing puck.
-25:25 --- Erik clears puck.
-25:30 --- Aaron passes puck
-25:35 --- Aaron fails clearing puck.
-25:40 --- Nathan does not retain puck.
-25:45 --- Erik fails passing puck
-25:50 --- John clears puck.
-25:55 --- Sam fails passing puck
-26:00 --- Theo fails clearing puck.
-26:05 --- John passes puck
-26:10 --- Nathan passes puck
-26:15 --- Nathan misses net!
-26:20 --- Tom misses net!
-26:25 --- Anders passes puck
-26:30 --- Michael misses net!
-26:35 --- Aaron passes puck
-26:40 --- Aaron does not retain puck.
-26:45 --- Sam fails clearing puck.
-26:50 --- Nathan fails clearing puck.
-26:55 --- Tom retains puck
-27:00 --- Tom fails clearing puck.
-27:05 --- Nathan passes puck
-27:10 --- Nathan retains puck
-27:15 --- Nathan misses net!
-27:20 --- Aaron does not retain puck.
-27:25 --- Michaelscores!
-27:30 --- Tom(Away) won the faceoff
-27:35 --- Erik retains puck
-27:40 --- Erik misses net!
-27:45 --- Michael retains puck
-27:50 --- Michael passes puck
-27:55 --- Sam passes puck
-28:00 --- Anders retains puck
-28:05 --- Anders does not retain puck.
-28:10 --- Aaron fails passing puck
-28:15 --- Michael fails clearing puck.
-28:20 --- Tom passes puck
-28:25 --- Aaron retains puck
-28:30 --- Aaron misses net!
-28:35 --- Michael passes puck
-28:40 --- Michael retains puck
-28:45 --- Michael misses net!
-28:50 --- Theo does not retain puck.
-28:55 --- Anders misses net!
-29:00 --- Mikko passes puck
-29:05 --- Aaron does not retain puck.
-29:10 --- Sam passes puck
-29:15 --- Nathan retains puck
-29:20 --- Nathan does not retain puck.
-29:25 --- Aaron retains puck
-29:30 --- Aaron misses net!
-29:35 --- Anders fails passing puck
-29:40 --- Theo misses net!
-29:45 --- Sam does not retain puck.
-29:50 --- Mikko fails passing puck
-29:55 --- John passes puck
-30:00 --- John passes puck
-30:05 --- Anders does not retain puck.
-30:10 --- Tom passes puck
-30:15 --- Mikko fails passing puck
-30:20 --- Nathan retains puck
-30:25 --- Nathan retains puck
-30:30 --- Nathan fails clearing puck.
-30:35 --- Mikko retains puck
-30:40 --- Mikko fails passing puck
-30:45 --- Anders retains puck
-30:50 --- Anders passes puck
-30:55 --- Anders does not retain puck.
-31:00 --- Theo misses net!
-31:05 --- John does not retain puck.
-31:10 --- Tom fails passing puck
-31:15 --- Nathan retains puck
-31:20 --- Nathan passes puck
-31:25 --- Anders retains puck
-31:30 --- Michael retains puck
-31:35 --- Michael clears puck.
-31:40 --- Nathan misses net!
-31:45 --- Mikko passes puck
-31:50 --- Theo does not retain puck.
-31:55 --- Michael passes puck
-32:00 --- Anders misses net!
-32:05 --- Nathan passes puck
-32:10 --- Sam passes puck
-32:15 --- Anders does not retain puck.
-32:20 --- Theo does not retain puck.
-32:25 --- Michael passes puck
-32:30 --- Nathan passes puck
-32:40 --- Tom(Away) won the faceoff
-32:45 --- Mikko does not retain puck.
-32:50 --- Anders fails passing puck
-32:55 --- Aaron fails clearing puck.
-33:00 --- Anders passes puck
-33:05 --- Sam passes puck
-33:10 --- Nathan retains puck
-33:15 --- Michael does not retain puck.
-33:20 --- Theo passes puck
-33:25 --- Tom fails clearing puck.
-33:30 --- Sam fails passing puck
-33:35 --- Erik misses net!
-33:40 --- John misses net!
-33:45 --- Theo retains puck
-33:50 --- Nathan passes puck
-33:55 --- Michael passes puck
-34:00 --- Nathan retains puck
-34:05 --- Nathan passes puck
-34:10 --- Anders misses net!
-34:15 --- Erik does not retain puck.
-34:20 --- Nathan passes puck
-34:25 --- John clears puck.
-34:30 --- Michael fails passing puck
-34:35 --- Theo clears puck.
-34:40 --- Erik fails passing puck
-34:45 --- Anders fails passing puck
-34:50 --- Erik retains puck
-34:55 --- Erik fails passing puck
-35:00 --- Nathan passes puck
-35:05 --- Nathan fails passing puck
-35:10 --- Aaron passes puck
-35:15 --- Theo passes puck
-35:20 --- Theo retains puck
-35:25 --- Theo passes puck
-35:30 --- Mikko retains puck
-35:35 --- Anders retains puck
-35:40 --- Anders retains puck
-35:45 --- Anders retains puck
-35:50 --- Anders misses net!
-35:55 --- Theo passes puck
-36:00 --- Tom does not retain puck.
-36:05 --- John retains puck
-36:10 --- Anders passes puck
-36:15 --- Sam does not retain puck.
-36:20 --- Erik retains puck
-36:25 --- Erik fails passing puck
-36:30 --- Anders passes puck
-36:35 --- John retains puck
-36:40 --- John passes puck
-36:45 --- Anders fails passing puck
-36:50 --- Tom passes puck
-36:55 --- Theo fails passing puck
-37:00 --- Michael fails passing puck
-37:05 --- Aaron passes puck
-37:10 --- Theo misses net!
-37:15 --- John retains puck
-37:20 --- Anders does not retain puck.
-37:25 --- Theo does not retain puck.
-37:30 --- Sam does not retain puck.
-37:35 --- Aaron does not retain puck.
-37:40 --- Anders passes puck
-37:45 --- Michael fails clearing puck.
-37:50 --- Theo fails clearing puck.
-37:55 --- Nathan clears puck.
-38:00 --- Nathan fails passing puck
-38:10 --- Tom(Home) won the faceoff
-38:15 --- Aaron does not retain puck.
-38:20 --- Anders passes puck
-38:25 --- Anders passes puck
-38:30 --- Anders clears puck.
-38:35 --- Anders does not retain puck.
-38:40 --- Aaron does not retain puck.
-38:45 --- Anders retains puck
-38:50 --- Anders retains puck
-38:55 --- Anders clears puck.
-39:00 --- Anders does not retain puck.
-39:05 --- Anders passes puck
-39:10 --- Sam passes puck
-39:15 --- Anders passes puck
-39:20 --- John passes puck
-39:25 --- John retains puck
-39:30 --- John passes puck
-39:35 --- John fails clearing puck.
-39:40 --- John passes puck
-39:45 --- Sam does not retain puck.
-39:50 --- Aaron clears puck.
-39:55 --- Mikko fails clearing puck.
-40:00 --- Anders passes puck
-40:05 --- Nathan retains puck
-40:10 --- Nathan retains puck
-40:15 --- Anders retains puck
-40:20 --- Anders does not retain puck.
-40:25 --- Theo passes puck
-40:35 --- Tom(Home) won the faceoff
-40:40 --- Theo fails clearing puck.
-40:45 --- Michael passes puck
-40:50 --- Sam passes puck
-40:55 --- John clears puck.
-41:00 --- Michael retains puck
-41:05 --- Michael passes puck
-41:10 --- John passes puck
-41:15 --- Nathan passes puck
-41:20 --- Sam passes puck
-41:25 --- Anders retains puck
-41:30 --- Anders misses net!
-41:35 --- Mikko misses net!
-41:40 --- John fails passing puck
-41:45 --- Theo passes puck
-41:50 --- Theo fails passing puck
-41:55 --- Nathan does not retain puck.
-42:00 --- Anders clears puck.
-42:05 --- Michael clears puck.
-42:10 --- Nathan retains puck
-42:15 --- Nathan misses net!
-42:20 --- Tom retains puck
-42:25 --- Tom retains puck
-42:30 --- Tom misses net!
-42:35 --- Michael does not retain puck.
-42:40 --- Tom fails passing puck
-42:45 --- Anders does not retain puck.
-42:50 --- Tom retains puck
-42:55 --- Tom passes puck
-43:00 --- Tom retains puck
-43:05 --- Tom misses net!
-43:10 --- Nathan passes puck
-43:15 --- Nathan does not retain puck.
-43:20 --- Tom retains puck
-43:25 --- Tom passes puck
-43:30 --- Tom fails clearing puck.
-43:35 --- Michael clears puck.
-43:40 --- Nathan retains puck
-43:45 --- Andersscores!
-43:50 --- Tom(Away) won the faceoff
-43:55 --- Mikko fails passing puck
-44:00 --- Nathan misses net!
-44:05 --- Aaron retains puck
-44:10 --- Aaronscores!
-44:15 --- John(Away) won the faceoff
-44:20 --- John misses net!
-44:25 --- Theo misses net!
-44:30 --- Nathan passes puck
-44:35 --- Nathan fails clearing puck.
-44:40 --- Theo fails clearing puck.
-44:45 --- John fails clearing puck.
-44:50 --- Theo clears puck.
-44:55 --- Anders misses net!
-45:00 --- Erik passes puck
-45:05 --- Mikko does not retain puck.
-45:10 --- Sam clears puck.
-45:15 --- Michael passes puck
-45:20 --- John misses net!
-45:25 --- Mikko retains puck
-45:30 --- Michael passes puck
-45:35 --- Michael fails clearing puck.
-45:40 --- Aaron retains puck
-45:45 --- Aaron passes puck
-45:50 --- Aaron does not retain puck.
-45:55 --- Anders retains puck
-46:00 --- Anders misses net!
-46:05 --- John retains puck
-46:10 --- John passes puck
-46:15 --- Anders retains puck
-46:20 --- Anders passes puck
-46:25 --- Michael passes puck
-46:30 --- Sam retains puck
-46:35 --- Sam misses net!
-46:40 --- Sam retains puck
-46:45 --- Sam retains puck
-46:50 --- Sam passes puck
-46:55 --- Anders fails passing puck
-47:00 --- Tom does not retain puck.
-47:05 --- Nathan does not retain puck.
-47:10 --- Mikkoscores!
-47:15 --- John(Home) won the faceoff
-47:25 --- John(Home) won the faceoff
-47:30 --- Michael retains puck
-47:35 --- Michael passes puck
-47:40 --- Sam retains puck
-47:45 --- Sam misses net!
-47:50 --- Nathan misses net!
-47:55 --- Erik retains puck
-48:00 --- Erik passes puck
-48:05 --- Erik passes puck
-48:10 --- Mikko fails passing puck
-48:15 --- Michael retains puck
-48:20 --- Michael passes puck
-48:25 --- John fails clearing puck.
-48:30 --- Aaron misses net!
-48:35 --- Nathan retains puck
-48:40 --- Nathan retains puck
-48:45 --- Nathan passes puck
-48:50 --- Nathan fails clearing puck.
-48:55 --- Erikscores!
-49:00 --- John(Home) won the faceoff
-49:05 --- Nathan misses net!
-49:10 --- Aaron passes puck
-49:15 --- Tom fails clearing puck.
-49:20 --- Nathan passes puck
-49:25 --- John retains puck
-49:30 --- John passes puck
-49:35 --- John passes puck
-49:40 --- Sam fails clearing puck.
-49:45 --- Aaron retains puck
-49:50 --- Aaron fails passing puck
-49:55 --- Anders retains puck
-50:00 --- Anders passes puck
-50:05 --- John does not retain puck.
-50:10 --- Nathan retains puck
-50:15 --- Nathan fails passing puck
-50:20 --- Aaron fails passing puck
-50:25 --- John retains puck
-50:30 --- John retains puck
-50:35 --- John does not retain puck.
-50:40 --- Theo misses net!
-50:45 --- Anders retains puck
-50:50 --- Anders passes puck
-50:55 --- Sam passes puck
-51:00 --- Nathan passes puck
-51:05 --- Anders retains puck
-51:10 --- Anders misses net!
-51:15 --- Aaron passes puck
-51:25 --- Tom(Away) won the faceoff
-51:30 --- Aaron retains puck
-51:35 --- Aaron does not retain puck.
-51:40 --- Sam fails passing puck
-51:45 --- Mikko passes puck
-51:50 --- Erik passes puck
-51:55 --- Sam misses net!
-52:00 --- Aaron fails passing puck
-52:05 --- Anders passes puck
-52:10 --- Anders passes puck
-52:15 --- John fails clearing puck.
-52:20 --- Theo passes puck
-52:25 --- Mikko passes puck
-52:30 --- Nathan clears puck.
-52:35 --- Michael passes puck
-52:40 --- John fails clearing puck.
-52:45 --- Aaron clears puck.
-52:50 --- Theo retains puck
-52:55 --- Theo retains puck
-53:00 --- Theo passes puck
-53:05 --- Sam passes puck
-53:10 --- Sam retains puck
-53:15 --- Sam retains puck
-53:20 --- Sam retains puck
-53:25 --- Sam passes puck
-53:30 --- Sam passes puck
-53:35 --- Nathan passes puck
-53:40 --- Sam misses net!
-53:45 --- Theo passes puck
-53:50 --- Mikko misses net!
-53:55 --- Michael does not retain puck.
-54:00 --- Tom retains puck
-54:05 --- Tom retains puck
-54:10 --- Tom passes puck
-54:15 --- John clears puck.
-54:20 --- Anders does not retain puck.
-54:25 --- Mikko fails passing puck
-54:30 --- Michael clears puck.
-54:35 --- Sam passes puck
-54:40 --- Anders fails passing puck
-54:45 --- Mikko passes puck
-54:50 --- Michael fails clearing puck.
-54:55 --- Mikko does not retain puck.
-55:00 --- John does not retain puck.
-55:05 --- Erik retains puck
-55:10 --- Erik does not retain puck.
-55:15 --- Sam misses net!
-55:20 --- Erik fails passing puck
-55:25 --- Nathan passes puck
-55:30 --- Anders clears puck.
-55:35 --- Nathan retains puck
-55:40 --- Nathan passes puck
-55:45 --- John misses net!
-55:50 --- Tomscores!
-55:55 --- John(Away) won the faceoff
-56:00 --- Anders does not retain puck.
-56:05 --- Mikko misses net!
-56:10 --- John retains puck
-56:15 --- John fails passing puck
-56:20 --- Erikscores!
-56:25 --- Tom(Home) won the faceoff
-56:30 --- Mikko passes puck
-56:35 --- Nathan misses net!
-56:40 --- Theo misses net!
-56:45 --- Anders fails passing puck
-56:50 --- Mikko does not retain puck.
-56:55 --- Nathan retains puck
-57:00 --- Nathan passes puck
-57:05 --- Michael fails passing puck
-57:10 --- John passes puck
-57:15 --- Anders passes puck
-57:20 --- John retains puck
-57:25 --- John fails clearing puck.
-57:30 --- Aaron fails clearing puck.
-57:35 --- Nathan fails passing puck
-57:40 --- Mikko clears puck.
-57:45 --- Sam does not retain puck.
-57:50 --- Tom retains puck
-57:55 --- Tom passes puck
-58:00 --- Erik passes puck
-58:05 --- Theoscores!
-58:10 --- John(Away) won the faceoff
-58:15 --- Michael clears puck.
-58:20 --- Nathan does not retain puck.
-58:25 --- Theo does not retain puck.
-58:30 --- Johnscores!
-58:35 --- Tom(Away) won the faceoff
-58:40 --- Tom fails passing puck
-58:45 --- Anders fails passing puck
-58:50 --- Erik fails clearing puck.
-58:55 --- Michael misses net!
-59:00 --- Tom retains puck
-59:05 --- Tom misses net!
-59:10 --- Michael retains puck
-59:15 --- Michael misses net!
-59:20 --- Aaron passes puck
-59:25 --- Tom clears puck.
-59:30 --- Michael passes puck
-59:35 --- John retains puck
-59:40 --- John passes puck
-59:45 --- Nathan retains puck
-59:50 --- Nathan passes puck
-59:55 --- John passes puck
-60:00 --- Nathan does not retain puck.
+0:00 --- Colin Hamilton(Home) won the faceoff
+0:05 --- Bobby Sestito retains puck
+0:10 --- Bobby Sestito misses net!
+0:15 --- Ben Ferlin retains puck
+0:20 --- Ben Ferlin retains puck
+0:25 --- Ben Ferlin retains puck
+0:30 --- Ben Ferlin retains puck
+0:35 --- Ben Ferlin retains puck
+0:40 --- Ben Ferlin passes puck
+0:45 --- Stanislav Anisimov passes puck
+0:50 --- Justin Guenin fails clearing puck.
+0:55 --- Joel Granlund retains puck
+1:00 --- Joel Granlund does not retain puck.
+1:05 --- Nail Nesterov passes puck
+1:10 --- Stanislav Anisimov retains puck
+1:15 --- Stanislav Anisimov retains puck
+1:20 --- Stanislav Anisimov clears puck.
+1:25 --- Stanislav Anisimov fails passing puck
+1:30 --- David McBain retains puck
+1:35 --- David McBain retains puck
+1:40 --- David McBain fails passing puck
+1:45 --- Erik Wagner passes puck
+1:50 --- Jordan Pavelski retains puck
+1:55 --- Jordan Pavelski passes puck
+2:00 --- Jordan Pavelski retains puck
+2:05 --- Jordan Pavelski passes puck
+2:10 --- Chris Potter retains puck
+2:15 --- Jakub Hejda does not retain puck.
+2:20 --- Bobby Sestito misses net!
+2:25 --- Ville Kemppainen retains puck
+2:30 --- Ville Kemppainen retains puck
+2:35 --- Ville Kemppainen passes puck
+2:40 --- Ville Kemppainen retains puck
+2:45 --- Ville Kemppainen misses net!
+2:50 --- Patrick Shattenkirk retains puck
+2:55 --- Patrick Shattenkirk retains puck
+3:00 --- Matt Kozun does not retain puck.
+3:05 --- Curtis Carter retains puck
+3:10 --- Curtis Carter passes puck
+3:15 --- Chris Greene retains puck
+3:20 --- Chris Greene fails passing puck
+3:25 --- Brock Legwand retains puck
+3:30 --- Brock Legwand fails passing puck
+3:35 --- Justin Guenin retains puck
+3:40 --- Justin Guenin passes puck
+3:45 --- Tyler Nelson passes puck
+3:50 --- Jordan Pavelski passes puck
+3:55 --- Tyler Nelson passes puck
+4:00 --- Patrik Granberg fails clearing puck.
+4:05 --- Michael Scuderi passes puck
+4:10 --- Jesse Lehtera retains puck
+4:15 --- Jesse Lehtera fails passing puck
+4:20 --- Tyler Nelson passes puck
+4:25 --- Erik Wagner retains puck
+4:30 --- Scott Paliotta passes puck
+4:35 --- Nail Nesterov fails passing puck
+4:40 --- Seth Leescores!
+4:45 --- Seth Lee(Home) won the faceoff
+4:50 --- Sami Timonen retains puck
+4:55 --- Sami Timonen passes puck
+5:00 --- Jimmy Leopold clears puck.
+5:05 --- Seth Lee does not retain puck.
+5:10 --- Nail Nesterov passes puck
+5:15 --- Ville Kemppainen passes puck
+5:20 --- Ben Ferlin retains puck
+5:25 --- Ben Ferlin retains puck
+5:30 --- Ben Ferlin passes puck
+5:40 --- Colin Hamilton(Away) won the faceoff
+5:45 --- Ryan Morin passes puck
+5:50 --- Ryan Morin retains puck
+5:55 --- Ryan Morin does not retain puck.
+6:00 --- Jarred Lovejoy passes puck
+6:05 --- Justin Guenin passes puck
+6:10 --- Trevor Schmidt passes puck
+6:15 --- Curtis Carter passes puck
+6:20 --- Chris Greene misses net!
+6:25 --- David McBain does not retain puck.
+6:30 --- Jarred Lovejoy does not retain puck.
+6:35 --- Jesse Lehtera fails passing puck
+6:40 --- Jarred Lovejoy passes puck
+6:45 --- Patrik Granberg fails clearing puck.
+6:50 --- Nick Kampfer does not retain puck.
+6:55 --- Jordan Pavelski clears puck.
+7:00 --- Erik Wagner retains puck
+7:10 --- Brock Legwand(Away) won the faceoff
+7:15 --- Nick Kampfer retains puck
+7:20 --- Nick Kampfer retains puck
+7:25 --- Nick Kampfer passes puck
+7:30 --- Jimmy Leopold retains puck
+7:35 --- Jimmy Leopold passes puck
+7:40 --- Sami Timonen retains puck
+7:45 --- Sami Timonen does not retain puck.
+7:50 --- Jakub Hejda passes puck
+7:55 --- Ville Kemppainen fails passing puck
+8:00 --- Jimmy Leopold retains puck
+8:05 --- Jimmy Leopold fails clearing puck.
+8:10 --- Jakub Hejda fails clearing puck.
+8:15 --- Jimmy Leopold passes puck
+8:20 --- B.J. Erixon fails passing puck
+8:25 --- Chris Greene passes puck
+8:30 --- Trevor Schmidt does not retain puck.
+8:35 --- Jesse Lehtera passes puck
+8:40 --- David McBain passes puck
+8:45 --- David McBain fails passing puck
+8:50 --- Curtis Carter passes puck
+8:55 --- Jarred Lovejoy retains puck
+9:00 --- Chris Potter does not retain puck.
+9:05 --- Matt Kozun retains puck
+9:10 --- Matt Kozun retains puck
+9:15 --- Matt Kozun passes puck
+9:20 --- Alec Hayes fails clearing puck.
+9:25 --- Chris Potter clears puck.
+9:30 --- Tyler Nelson does not retain puck.
+9:35 --- Mark Carle retains puck
+9:40 --- Mark Carle does not retain puck.
+9:45 --- Ville Kemppainen passes puck
+9:50 --- Mike Morin passes puck
+9:55 --- Mike Morin passes puck
+10:00 --- Ryan Oleksy misses net!
+10:05 --- Martin Vincour misses net!
+10:10 --- Ville Kemppainen passes puck
+10:15 --- Ville Kemppainen fails clearing puck.
+10:20 --- Jesse Lehtera retains puck
+10:25 --- Jesse Lehtera misses net!
+10:30 --- Trevor Schmidt misses net!
+10:35 --- David McBain fails passing puck
+10:40 --- Justin Guenin retains puck
+10:45 --- Justin Guenin passes puck
+10:50 --- Jarred Lovejoy passes puck
+10:55 --- Chris Greene does not retain puck.
+11:00 --- B.J. Erixon passes puck
+11:05 --- Jimmy Leopold passes puck
+11:10 --- Michael Scuderi misses net!
+11:15 --- Justin Guenin retains puck
+11:20 --- Justin Guenin fails passing puck
+11:25 --- Bobby Sestito passes puck
+11:30 --- Patrick Shattenkirk clears puck.
+11:35 --- Colin Hamilton retains puck
+11:40 --- Colin Hamilton retains puck
+11:45 --- Colin Hamilton does not retain puck.
+11:50 --- Scott Paliotta does not retain puck.
+11:55 --- Colin Hamilton fails clearing puck.
+12:00 --- Ville Kemppainen passes puck
+12:05 --- Mike Morin fails passing puck
+12:10 --- Brock Legwand retains puck
+12:15 --- Brock Legwand retains puck
+12:20 --- Brock Legwand passes puck
+12:30 --- Brock Legwand(Home) won the faceoff
+12:35 --- Brock Legwand retains puck
+12:40 --- Brock Legwand passes puck
+12:45 --- Patrick Shattenkirk retains puck
+12:50 --- Patrick Shattenkirk fails clearing puck.
+12:55 --- Tyler Nelson does not retain puck.
+13:05 --- Tyler Nelson(Away) won the faceoff
+13:10 --- Erik Wagner passes puck
+13:15 --- Erik Wagner misses net!
+13:20 --- Seth Lee passes puck
+13:25 --- Martin Vincour passes puck
+13:30 --- Michael Scuderi fails passing puck
+13:35 --- Nail Nesterov fails clearing puck.
+13:40 --- B.J. Erixon retains puck
+13:45 --- B.J. Erixon fails clearing puck.
+13:50 --- Scott Paliotta clears puck.
+13:55 --- Stanislav Anisimov fails clearing puck.
+14:00 --- B.J. Erixon fails passing puck
+14:05 --- Scott Paliotta does not retain puck.
+14:10 --- Jesse Lehtera passes puck
+14:15 --- Mark Carle retains puck
+14:20 --- Mark Carle does not retain puck.
+14:25 --- Chris Greene clears puck.
+14:30 --- Chris Greene passes puck
+14:35 --- Justin Guenin does not retain puck.
+14:40 --- Brock Legwand clears puck.
+14:45 --- Brock Legwandscores!
+14:50 --- Chris Greene(Away) won the faceoff
+14:55 --- Trevor Schmidt passes puck
+15:00 --- Chris Potter does not retain puck.
+15:05 --- Seth Lee passes puck
+15:10 --- Jimmy Leopold fails passing puck
+15:15 --- Chris Potter fails clearing puck.
+15:20 --- Jesse Lehtera does not retain puck.
+15:25 --- Chris Potter fails clearing puck.
+15:30 --- Jesse Lehtera passes puck
+15:35 --- Sami Timonen retains puck
+15:40 --- Sami Timonen fails passing puck
+15:45 --- Stanislav Anisimov retains puck
+15:50 --- Stanislav Anisimov does not retain puck.
+15:55 --- Bobby Sestito fails passing puck
+16:00 --- Stanislav Anisimov misses net!
+16:05 --- Bobby Sestito fails passing puck
+16:10 --- Ville Kemppainen fails passing puck
+16:15 --- Colin Hamilton passes puck
+16:20 --- Colin Hamilton does not retain puck.
+16:25 --- Nail Nesterov does not retain puck.
+16:30 --- Jesse Lehtera clears puck.
+16:35 --- Jimmy Leopold does not retain puck.
+16:40 --- Jarred Lovejoy passes puck
+16:45 --- Justin Guenin fails passing puck
+16:50 --- Jimmy Leopold retains puck
+16:55 --- Jimmy Leopold misses net!
+17:00 --- Trevor Schmidt retains puck
+17:05 --- Trevor Schmidt retains puck
+17:10 --- Trevor Schmidt passes puck
+17:15 --- Jakub Hejda fails passing puck
+17:20 --- Brock Legwand passes puck
+17:25 --- Nick Kampfer passes puck
+17:30 --- Nick Kampfer retains puck
+17:35 --- Nick Kampfer retains puck
+17:40 --- Nick Kampfer passes puck
+17:45 --- Matt Kozun fails clearing puck.
+17:50 --- Jakub Hejda clears puck.
+17:55 --- Ville Kemppainen clears puck.
+18:05 --- Colin Hamilton(Away) won the faceoff
+18:10 --- Colin Hamilton does not retain puck.
+18:15 --- Jordan Pavelski fails clearing puck.
+18:20 --- Ryan Morin passes puck
+18:25 --- Colin Hamilton misses net!
+18:30 --- Patrik Granberg passes puck
+18:35 --- Patrik Granberg clears puck.
+18:40 --- Patrik Granberg clears puck.
+18:45 --- Curtis Carter does not retain puck.
+18:50 --- David McBain passes puck
+18:55 --- David McBain passes puck
+19:00 --- B.J. Erixon fails clearing puck.
+19:05 --- Curtis Carter passes puck
+19:10 --- Justin Guenin fails passing puck
+19:15 --- Jimmy Leopold fails clearing puck.
+19:20 --- Curtis Carter does not retain puck.
+19:25 --- Michael Scuderi clears puck.
+19:30 --- Martin Vincour retains puck
+19:35 --- Martin Vincour fails passing puck
+19:40 --- Scott Paliotta misses net!
+19:45 --- Sami Timonen fails passing puck
+19:50 --- Nail Nesterov fails passing puck
+19:55 --- Jimmy Leopold misses net!
+20:00 --- Scott Paliotta does not retain puck.
+20:05 --- Jesse Lehtera passes puck
+20:10 --- Sami Timonen misses net!
+20:15 --- Ville Kemppainen passes puck
+20:20 --- Ben Ferlin retains puck
+20:25 --- Ben Ferlin passes puck
+20:30 --- Mike Morin passes puck
+20:35 --- Mike Morin does not retain puck.
+20:40 --- Brock Legwand fails passing puck
+20:45 --- Ville Kemppainen passes puck
+20:50 --- Ben Ferlin passes puck
+20:55 --- Mike Morin fails clearing puck.
+21:00 --- Patrick Shattenkirk clears puck.
+21:05 --- Joel Granlund retains puck
+21:10 --- Joel Granlund passes puck
+21:15 --- Bobby Sestito passes puck
+21:20 --- Ryan Morin does not retain puck.
+21:25 --- Jordan Pavelski passes puck
+21:30 --- Tyler Nelson fails clearing puck.
+21:35 --- Joel Granlund fails clearing puck.
+21:40 --- Jordan Pavelski fails clearing puck.
+21:45 --- Martin Vincour does not retain puck.
+21:50 --- Stanislav Anisimov fails passing puck
+21:55 --- Seth Lee passes puck
+22:00 --- Jimmy Leopold passes puck
+22:05 --- Seth Lee retains puck
+22:10 --- Seth Lee fails clearing puck.
+22:15 --- Ville Kemppainen clears puck.
+22:20 --- Nail Nesterov retains puck
+22:25 --- Nail Nesterov passes puck
+22:30 --- Jarred Lovejoy retains puck
+22:35 --- Jarred Lovejoy does not retain puck.
+22:40 --- Jimmy Leopold does not retain puck.
+22:45 --- Curtis Carter misses net!
+22:50 --- David McBain retains puck
+22:55 --- David McBain fails passing puck
+23:00 --- Chris Greene passes puck
+23:05 --- Trevor Schmidt retains puck
+23:10 --- Trevor Schmidt misses net!
+23:15 --- Bobby Sestito fails passing puck
+23:20 --- Patrik Granberg fails passing puck
+23:25 --- Bobby Sestito does not retain puck.
+23:30 --- Chris Potter does not retain puck.
+23:35 --- Ryan Morin retains puck
+23:40 --- Ryan Morin does not retain puck.
+23:45 --- Chris Potter retains puck
+23:50 --- Chris Potter passes puck
+23:55 --- Tyler Nelson passes puck
+24:00 --- Ryan Oleksy retains puck
+24:05 --- Ryan Oleksy does not retain puck.
+24:10 --- Nick Kampfer passes puck
+24:15 --- Matt Kozun retains puck
+24:20 --- Matt Kozun retains puck
+24:25 --- Matt Kozun retains puck
+24:30 --- Matt Kozun does not retain puck.
+24:35 --- Ryan Oleksy passes puck
+24:40 --- Ryan Oleksy does not retain puck.
+24:45 --- Joel Granlund passes puck
+24:50 --- Patrick Shattenkirk fails passing puck
+24:55 --- Mike Morin retains puck
+25:00 --- Mike Morin fails passing puck
+25:05 --- Seth Lee retains puck
+25:10 --- Seth Lee passes puck
+25:15 --- Seth Lee retains puck
+25:20 --- Seth Lee passes puck
+25:25 --- Sami Timonen fails passing puck
+25:30 --- Patrik Granberg does not retain puck.
+25:35 --- Ryan Morin does not retain puck.
+25:40 --- Erik Wagner retains puck
+25:45 --- Erik Wagner retains puck
+25:50 --- Erik Wagner misses net!
+25:55 --- Ryan Morin passes puck
+26:00 --- Bobby Sestito fails clearing puck.
+26:05 --- Tyler Nelson passes puck
+26:10 --- Erik Wagner fails passing puck
+26:15 --- Michael Scuderi retains puck
+26:20 --- Michael Scuderi does not retain puck.
+26:25 --- Curtis Carter retains puck
+26:30 --- Curtis Carter retains puck
+26:35 --- Curtis Carter fails passing puck
+26:40 --- Jimmy Leopold misses net!
+26:45 --- Justin Guenin retains puck
+26:50 --- Justin Guenin fails passing puck
+26:55 --- Jesse Lehtera fails passing puck
+27:00 --- Ville Kemppainen fails passing puck
+27:05 --- Brock Legwand retains puck
+27:10 --- Brock Legwand does not retain puck.
+27:15 --- Scott Paliotta retains puck
+27:20 --- Scott Paliotta does not retain puck.
+27:25 --- Matt Kozun passes puck
+27:30 --- Nick Kampfer fails clearing puck.
+27:35 --- Scott Paliotta fails clearing puck.
+27:40 --- Brock Legwand fails clearing puck.
+27:45 --- Ville Kemppainen clears puck.
+27:50 --- Jakub Hejda retains puck
+27:55 --- Jakub Hejda retains puck
+28:00 --- Jakub Hejda passes puck
+28:05 --- Jakub Hejdascores!
+28:10 --- Colin Hamilton(Away) won the faceoff
+28:15 --- Bobby Sestito passes puck
+28:20 --- Ryan Morin misses net!
+28:25 --- Jakub Hejda retains puck
+28:30 --- Patrik Granberg misses net!
+28:35 --- Martin Vincour retains puck
+28:40 --- Martin Vincour does not retain puck.
+28:45 --- Chris Potter passes puck
+28:50 --- Erik Wagner passes puck
+28:55 --- Erik Wagner passes puck
+29:00 --- Erik Wagner does not retain puck.
+29:05 --- Sami Timonen fails clearing puck.
+29:10 --- Patrik Granberg passes puck
+29:15 --- Justin Guenin fails passing puck
+29:20 --- Nick Kampfer retains puck
+29:25 --- Nick Kampfer fails passing puck
+29:30 --- Jarred Lovejoy does not retain puck.
+29:35 --- Matt Kozun passes puck
+29:40 --- Mark Carle passes puck
+29:45 --- Matt Kozun does not retain puck.
+29:50 --- Nail Nesterov does not retain puck.
+29:55 --- Nick Kampfer fails clearing puck.
+30:00 --- Jarred Lovejoy fails clearing puck.
+30:05 --- David McBain clears puck.
+30:10 --- B.J. Erixon fails clearing puck.
+30:15 --- Jarred Lovejoy clears puck.
+30:20 --- Trevor Schmidt retains puck
+30:25 --- Trevor Schmidt misses net!
+30:30 --- David McBain does not retain puck.
+30:35 --- Curtis Carter passes puck
+30:40 --- Chris Greene passes puck
+30:45 --- Erik Wagner passes puck
+30:50 --- Tyler Nelson fails passing puck
+30:55 --- Patrick Shattenkirk does not retain puck.
+31:00 --- Chris Potter passes puck
+31:05 --- Patrik Granberg fails clearing puck.
+31:10 --- Joel Granlund fails clearing puck.
+31:15 --- Erik Wagner clears puck.
+31:20 --- Patrik Granberg fails clearing puck.
+31:25 --- Colin Hamilton does not retain puck.
+31:30 --- Ville Kemppainen passes puck
+31:35 --- Mike Morin retains puck
+31:40 --- Mike Morin does not retain puck.
+31:45 --- Nick Kampfer passes puck
+31:50 --- Nick Kampfer retains puck
+32:00 --- Jakub Hejda(Away) won the faceoff
+32:05 --- Ryan Oleksy clears puck.
+32:10 --- Ville Kemppainen fails clearing puck.
+32:15 --- Jesse Lehtera passes puck
+32:20 --- David McBainscores!
+32:25 --- Michael Scuderi(Home) won the faceoff
+32:30 --- Michael Scuderi passes puck
+32:35 --- Jimmy Leopold retains puck
+32:40 --- Jimmy Leopold does not retain puck.
+32:45 --- Justin Guenin fails clearing puck.
+32:50 --- David McBain retains puck
+32:55 --- David McBain does not retain puck.
+33:00 --- Scott Paliotta retains puck
+33:05 --- Scott Paliotta misses net!
+33:10 --- Ryan Morinscores!
+33:15 --- Colin Hamilton(Home) won the faceoff
+33:20 --- Ryan Morin does not retain puck.
+33:25 --- Jarred Lovejoyscores!
+33:30 --- Colin Hamilton(Away) won the faceoff
+33:35 --- Bobby Sestito misses net!
+33:40 --- Jarred Lovejoy passes puck
+33:45 --- Mike Morin passes puck
+33:50 --- Ben Ferlin misses net!
+33:55 --- Martin Vincour retains puck
+34:00 --- Martin Vincour misses net!
+34:05 --- Mike Morin fails passing puck
+34:10 --- Martin Vincour passes puck
+34:15 --- Jesse Lehtera passes puck
+34:20 --- Sami Timonen does not retain puck.
+34:25 --- Ben Ferlin does not retain puck.
+34:30 --- Jesse Lehtera passes puck
+34:35 --- Jimmy Leopold passes puck
+34:40 --- David McBain passes puck
+34:45 --- Jesse Lehtera passes puck
+34:50 --- B.J. Erixon does not retain puck.
+34:55 --- Curtis Carter misses net!
+35:00 --- Jimmy Leopold fails passing puck
+35:05 --- Trevor Schmidtscores!
+35:10 --- Chris Greene(Home) won the faceoff
+35:15 --- Mike Morin passes puck
+35:20 --- Scott Paliotta passes puck
+35:25 --- Ville Kemppainen retains puck
+35:30 --- Ville Kemppainen retains puck
+35:35 --- Ville Kemppainen does not retain puck.
+35:40 --- Matt Kozunscores!
+35:45 --- Nail Nesterov(Away) won the faceoff
+35:50 --- Nail Nesterov clears puck.
+35:55 --- Ville Kemppainen does not retain puck.
+36:00 --- Ryan Morin retains puck
+36:05 --- Ryan Morin does not retain puck.
+36:10 --- Tyler Nelson does not retain puck.
+36:15 --- Colin Hamilton passes puck
+36:20 --- Colin Hamilton clears puck.
+36:25 --- Bobby Sestito passes puck
+36:30 --- Ryan Morin misses net!
+36:35 --- Jordan Pavelski fails passing puck
+36:40 --- Colin Hamilton passes puck
+36:45 --- David McBain clears puck.
+36:55 --- Jakub Hejda(Away) won the faceoff
+37:00 --- Jakub Hejda retains puck
+37:05 --- Jakub Hejda passes puck
+37:10 --- Mike Morin retains puck
+37:15 --- Mike Morin fails passing puck
+37:20 --- Jesse Lehtera retains puck
+37:25 --- Jesse Lehtera fails passing puck
+37:30 --- Curtis Carter retains puck
+37:35 --- Curtis Carter retains puck
+37:40 --- Curtis Carter retains puck
+37:45 --- Curtis Carter retains puck
+37:50 --- Curtis Carter passes puck
+37:55 --- Jarred Lovejoy passes puck
+38:00 --- Justin Guenin passes puck
+38:05 --- Chris Greene does not retain puck.
+38:10 --- Martin Vincour clears puck.
+38:15 --- Alec Hayes misses net!
+38:20 --- Jarred Lovejoy misses net!
+38:25 --- Nick Kampfer does not retain puck.
+38:30 --- Nail Nesterov passes puck
+38:35 --- Scott Paliotta fails clearing puck.
+38:40 --- Nick Kampfer fails clearing puck.
+38:45 --- Nail Nesterov fails clearing puck.
+38:50 --- Alec Hayes retains puck
+38:55 --- Alec Hayes clears puck.
+39:00 --- Jimmy Leopold fails clearing puck.
+39:05 --- Ville Kemppainen clears puck.
+39:10 --- Ben Ferlin passes puck
+39:15 --- Mike Morin fails clearing puck.
+39:20 --- Jimmy Leopold does not retain puck.
+39:25 --- Jakub Hejda passes puck
+39:30 --- Mike Morin clears puck.
+39:35 --- Ville Kemppainen passes puck
+39:40 --- Ryan Oleksy fails clearing puck.
+39:45 --- Bobby Sestito passes puck
+39:50 --- Joel Granlund fails clearing puck.
+39:55 --- Jarred Lovejoy clears puck.
+40:00 --- Jarred Lovejoy clears puck.
+40:05 --- Jarred Lovejoy passes puck
+40:10 --- Curtis Carter clears puck.
+40:15 --- Trevor Schmidt fails clearing puck.
+40:20 --- Joel Granlund passes puck
+40:25 --- Bobby Sestito retains puck
+40:30 --- Alec Hayes fails passing puck
+40:35 --- Jordan Pavelski fails passing puck
+40:40 --- Nick Kampfer does not retain puck.
+40:45 --- Chris Potter passes puck
+40:50 --- Chris Potter fails passing puck
+40:55 --- Alec Hayes passes puck
+41:00 --- Mark Carle clears puck.
+41:05 --- Mark Carle does not retain puck.
+41:10 --- Jordan Pavelski retains puck
+41:15 --- Ben Ferlin fails passing puck
+41:20 --- Michael Scuderi passes puck
+41:25 --- Jimmy Leopold fails clearing puck.
+41:30 --- Mike Morin fails clearing puck.
+41:35 --- Jesse Lehtera clears puck.
+41:40 --- David McBain clears puck.
+41:45 --- Michael Scuderi does not retain puck.
+41:50 --- Ben Ferlin retains puck
+41:55 --- Ben Ferlin passes puck
+42:00 --- Ville Kemppainen fails passing puck
+42:05 --- Jimmy Leopold passes puck
+42:10 --- Martin Vincour fails passing puck
+42:15 --- Scott Paliotta retains puck
+42:20 --- Scott Paliotta misses net!
+42:25 --- Seth Lee passes puck
+42:30 --- Sami Timonen clears puck.
+42:35 --- Jesse Lehtera retains puck
+42:40 --- Jesse Lehtera fails clearing puck.
+42:45 --- Erik Wagner clears puck.
+42:50 --- Tyler Nelson fails passing puck
+42:55 --- Joel Granlund misses net!
+43:00 --- Jordan Pavelski passes puck
+43:05 --- Erik Wagner fails clearing puck.
+43:10 --- Patrick Shattenkirk retains puck
+43:15 --- Patrick Shattenkirk misses net!
+43:20 --- Patrik Granberg passes puck
+43:25 --- Tyler Nelson fails passing puck
+43:30 --- B.J. Erixon passes puck
+43:35 --- B.J. Erixon retains puck
+43:40 --- B.J. Erixon retains puck
+43:45 --- B.J. Erixon does not retain puck.
+43:50 --- Chris Greene passes puck
+43:55 --- Trevor Schmidt fails passing puck
+44:00 --- Jimmy Leopold retains puck
+44:05 --- Jimmy Leopold passes puck
+44:10 --- David McBain does not retain puck.
+44:15 --- Jarred Lovejoy fails passing puck
+44:20 --- Mark Carle misses net!
+44:25 --- Nail Nesterov fails passing puck
+44:30 --- Brock Legwand misses net!
+44:35 --- Scott Paliotta does not retain puck.
+44:40 --- Matt Kozun retains puck
+44:45 --- Matt Kozun fails passing puck
+44:50 --- Nail Nesterov retains puck
+44:55 --- Nail Nesterov retains puck
+45:00 --- Ben Ferlin does not retain puck.
+45:05 --- Joel Granlund does not retain puck.
+45:10 --- Mike Morin does not retain puck.
+45:15 --- Bobby Sestito misses net!
+45:20 --- Ben Ferlin retains puck
+45:25 --- Ben Ferlin retains puck
+45:30 --- Ben Ferlin retains puck
+45:35 --- Ben Ferlin does not retain puck.
+45:40 --- Joel Granlund retains puck
+45:45 --- Michael Scuderi does not retain puck.
+45:50 --- Jarred Lovejoy passes puck
+45:55 --- Justin Guenin passes puck
+46:00 --- Justin Guenin fails clearing puck.
+46:05 --- Jimmy Leopold does not retain puck.
+46:10 --- Jarred Lovejoy fails clearing puck.
+46:15 --- David McBain retains puck
+46:20 --- David McBain passes puck
+46:25 --- Michael Scuderi retains puck
+46:30 --- Jesse Lehtera passes puck
+46:35 --- Seth Lee passes puck
+46:40 --- Martin Vincour fails clearing puck.
+46:45 --- Scott Paliotta retains puck
+46:50 --- Scott Paliottascores!
+46:55 --- Nail Nesterov(Home) won the faceoff
+47:00 --- Ville Kemppainen does not retain puck.
+47:05 --- Jesse Lehtera retains puck
+47:10 --- Jesse Lehtera misses net!
+47:15 --- Erik Wagner passes puck
+47:20 --- Chris Potter passes puck
+47:25 --- Erik Wagner retains puck
+47:30 --- Erik Wagner passes puck
+47:35 --- Erik Wagner passes puck
+47:40 --- Erik Wagner retains puck
+47:45 --- Erik Wagner passes puck
+47:50 --- Patrik Granberg passes puck
+47:55 --- Tyler Nelson fails clearing puck.
+48:00 --- Mark Carle fails clearing puck.
+48:05 --- Jakub Hejda fails clearing puck.
+48:10 --- Alec Hayes does not retain puck.
+48:15 --- Mike Morin retains puck
+48:20 --- Mike Morin fails passing puck
+48:25 --- Brock Legwand passes puck
+48:30 --- Brock Legwand retains puck
+48:35 --- Brock Legwand retains puck
+48:40 --- Brock Legwand retains puck
+48:45 --- Jesse Lehtera does not retain puck.
+48:50 --- Stanislav Anisimov does not retain puck.
+48:55 --- Michael Scuderi misses net!
+49:00 --- Stanislav Anisimov fails passing puck
+49:05 --- Jimmy Leopold passes puck
+49:10 --- David McBain fails clearing puck.
+49:15 --- Nail Nesterov does not retain puck.
+49:20 --- B.J. Erixon fails clearing puck.
+49:25 --- Justin Guenin does not retain puck.
+49:30 --- Jesse Lehtera clears puck.
+49:35 --- Sami Timonen fails clearing puck.
+49:40 --- Erik Wagner retains puck
+49:45 --- Erik Wagner fails clearing puck.
+49:50 --- Martin Vincour retains puck
+49:55 --- Martin Vincour clears puck.
+50:00 --- Jimmy Leopold does not retain puck.
+50:05 --- Jordan Pavelski does not retain puck.
+50:10 --- Jesse Lehtera does not retain puck.
+50:15 --- Jarred Lovejoy passes puck
+50:20 --- Justin Guenin does not retain puck.
+50:25 --- Alec Hayes fails clearing puck.
+50:30 --- Curtis Carter fails clearing puck.
+50:35 --- Alec Hayes does not retain puck.
+50:40 --- Trevor Schmidt passes puck
+50:45 --- Curtis Carter fails clearing puck.
+50:50 --- Mark Carle misses net!
+50:55 --- Justin Guenin does not retain puck.
+51:00 --- Ryan Morin retains puck
+51:05 --- Ryan Morin passes puck
+51:10 --- Colin Hamilton passes puck
+51:15 --- Colin Hamilton misses net!
+51:20 --- Ryan Oleksy fails passing puck
+51:25 --- Bobby Sestito retains puck
+51:30 --- Bobby Sestito does not retain puck.
+51:35 --- Ville Kemppainen fails passing puck
+51:40 --- Patrick Shattenkirk retains puck
+51:45 --- B.J. Erixon retains puck
+51:50 --- B.J. Erixon does not retain puck.
+51:55 --- Ville Kemppainen retains puck
+52:00 --- Ville Kemppainen misses net!
+52:05 --- B.J. Erixon retains puck
+52:10 --- B.J. Erixon retains puck
+52:15 --- B.J. Erixon passes puck
+52:20 --- Michael Scuderi does not retain puck.
+52:25 --- Stanislav Anisimov passes puck
+52:30 --- Chris Greene fails clearing puck.
+52:35 --- Jesse Lehtera clears puck.
+52:40 --- Jimmy Leopold does not retain puck.
+52:45 --- Chris Greene retains puck
+52:50 --- Chris Greene retains puck
+52:55 --- Chris Greene clears puck.
+53:00 --- Jarred Lovejoy passes puck
+53:05 --- Curtis Carter misses net!
+53:10 --- Jesse Lehtera passes puck
+53:15 --- Colin Hamilton fails clearing puck.
+53:20 --- Ryan Oleksy does not retain puck.
+53:25 --- Bobby Sestito does not retain puck.
+53:30 --- Ben Ferlin retains puck
+53:35 --- Ben Ferlin clears puck.
+53:40 --- Ville Kemppainen retains puck
+53:45 --- Ville Kemppainen passes puck
+53:50 --- Ville Kemppainen retains puck
+53:55 --- Ville Kemppainen misses net!
+54:00 --- Jesse Lehtera misses net!
+54:05 --- Patrik Granberg retains puck
+54:10 --- Patrik Granberg misses net!
+54:15 --- Michael Scuderi retains puck
+54:20 --- Michael Scuderi does not retain puck.
+54:25 --- Erik Wagner retains puck
+54:30 --- Erik Wagner fails passing puck
+54:35 --- David McBain retains puck
+54:40 --- David McBain does not retain puck.
+54:45 --- Mike Morin retains puck
+54:50 --- Mike Morin fails passing puck
+54:55 --- Martin Vincour does not retain puck.
+55:00 --- Stanislav Anisimov passes puck
+55:05 --- Ville Kemppainenscores!
+55:10 --- Nail Nesterov(Home) won the faceoff
+55:15 --- Stanislav Anisimov passes puck
+55:20 --- Nail Nesterov retains puck
+55:25 --- Nail Nesterov clears puck.
+55:30 --- Ville Kemppainen misses net!
+55:35 --- Matt Kozun retains puck
+55:40 --- Matt Kozun retains puck
+55:45 --- Matt Kozun retains puck
+55:50 --- Matt Kozun misses net!
+55:55 --- Jakub Hejda passes puck
+56:00 --- Ville Kemppainen does not retain puck.
+56:05 --- Brock Legwand fails passing puck
+56:10 --- Mike Morin misses net!
+56:15 --- Jimmy Leopold passes puck
+56:20 --- Jimmy Leopold clears puck.
+56:25 --- David McBain fails clearing puck.
+56:30 --- Curtis Carter retains puck
+56:35 --- Curtis Carter retains puck
+56:40 --- Curtis Carter passes puck
+56:45 --- Trevor Schmidt does not retain puck.
+56:50 --- Michael Scuderi fails clearing puck.
+56:55 --- Justin Guenin clears puck.
+57:00 --- Tyler Nelson does not retain puck.
+57:05 --- Sami Timonen misses net!
+57:10 --- Chris Potter passes puck
+57:15 --- Patrik Granberg misses net!
+57:20 --- Jimmy Leopold passes puck
+57:25 --- Martin Vincour does not retain puck.
+57:30 --- Patrik Granberg passes puck
+57:35 --- Erik Wagner passes puck
+57:40 --- Erik Wagner retains puck
+57:45 --- Scott Paliotta retains puck
+57:50 --- Scott Paliotta retains puck
+57:55 --- Scott Paliotta fails clearing puck.
+58:00 --- Mark Carle clears puck.
+58:05 --- Brock Legwand retains puck
+58:10 --- Brock Legwand fails passing puck
+58:15 --- Jarred Lovejoy passes puck
+58:20 --- Justin Guenin does not retain puck.
+58:25 --- Alec Hayes does not retain puck.
+58:30 --- Jarred Lovejoy does not retain puck.
+58:35 --- Colin Hamilton fails clearing puck.
+58:40 --- Justin Guenin fails clearing puck.
+58:45 --- Colin Hamilton retains puck
+58:50 --- Colin Hamilton passes puck
+58:55 --- Patrick Shattenkirk fails clearing puck.
+59:00 --- Curtis Carter passes puck
+59:05 --- Jarred Lovejoy misses net!
+59:10 --- Joel Granlund retains puck
+59:15 --- Patrick Shattenkirk does not retain puck.
+59:20 --- Tyler Nelson retains puck
+59:25 --- Tyler Nelson misses net!
+59:30 --- Sami Timonen fails passing puck
+59:35 --- Erik Wagner retains puck
+59:40 --- Erik Wagner passes puck
+59:45 --- Tyler Nelson passes puck
+59:50 --- Patrik Granberg does not retain puck.
+59:55 --- Martin Vincour passes puck
+60:00 --- Matt Kozun passes puck

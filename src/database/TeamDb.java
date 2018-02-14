@@ -4,6 +4,7 @@ import player.Player;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class TeamDb {
     private static void initializeLines(int teamid){
@@ -112,8 +113,20 @@ public class TeamDb {
         String rwPos = "RW" + lineNum;
         String ldPos, rdPos;
         if(lineNum == 4){
-            ldPos = "LD3";
-            rdPos = "RD3";
+            Random rand = new Random();
+            int prob = rand.nextInt();
+            if(prob < 33){
+                ldPos = "LD1";
+                rdPos = "RD1";
+            }
+            else if(prob < 66){
+                ldPos = "LD2";
+                rdPos = "RD2";
+            }
+            else {
+                ldPos = "LD3";
+                rdPos = "RD3";
+            }
         }
         else{
             ldPos = "LD" + lineNum;
