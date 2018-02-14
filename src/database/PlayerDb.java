@@ -92,4 +92,27 @@ public class PlayerDb {
         }
         return unassigned;
     }
+    public static ArrayList<Integer> getTeamPlayers(int teamid){
+        ArrayList<Integer> unassigned = new ArrayList<Integer>();
+        String sql = "SELECT PlayerID "
+                + "FROM Player WHERE TeamID = ?";
+
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try(Connection conn = DriverManager.getConnection(url)){
+            PreparedStatement pstmt  = conn.prepareStatement(sql);
+
+            // using prepared statements for query
+            pstmt.setDouble(1,teamid);
+            //
+            ResultSet rs  = pstmt.executeQuery();
+
+            // loop through the result set
+            while (rs.next()) {
+                unassigned.add(rs.getInt("PlayerID"));
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return unassigned;
+    }
 }

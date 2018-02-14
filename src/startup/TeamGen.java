@@ -23,7 +23,6 @@ public class TeamGen {
             int pid = unassigned.get(unassignedindex);
             Player p = PlayerDb.getPlayer(pid);
             String pos = p.getPosition();
-            System.out.println(p.getName());
             switch(pos){
                 case "C":
                     if(centersCount > 0){
@@ -86,13 +85,10 @@ public class TeamGen {
                     }
                     break;
                 case "G":
-                    System.out.println(goalieCount + " " + p.getName());
                     if(goalieCount > 0){
-                        System.out.println(goalieCount + " " + p.getName());
                         goalieCount--;
                         unassigned.remove(unassignedindex);
                         PlayerDb.updatePlayerTeam(pid, teamid);
-                        System.out.println(PlayerDb.getPlayer(pid).getTeamID());
                     }
                     break;
             }

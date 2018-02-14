@@ -58,11 +58,17 @@ public class SQLiteJDBCDriverConnection {
         String sql2 = "CREATE TABLE Player( PlayerID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT," +
                 " Position TEXT, TeamID INTEGER, Faceoff INTEGER, OffensiveSkills" +
                 " INTEGER, DefensiveSkills INTEGER, GoalieSkills INTEGER )";
+        String sql3 = "CREATE TABLE Team( TeamID INTEGER PRIMARY KEY, LW1 INTEGER," +
+                " C1 INTEGER, RW1 INTEGER, LW2 INTEGER, C2" +
+                " INTEGER, RW2 INTEGER,LW3 INTEGER,C3 INTEGER, RW3 INTEGER, LW4 INTEGER," +
+                " C4 INTEGER, RW4 , LD1 INTEGER, RD1 INTEGER, LD2 INTEGER, RD2 INTEGER," +
+                " LD3 INTEGER, RD3 INTEGER, G1 INTEGER, G2 INTEGER)";
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {
             // create a new table
             stmt.execute(sql);
             stmt.execute(sql2);
+            stmt.execute(sql3);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

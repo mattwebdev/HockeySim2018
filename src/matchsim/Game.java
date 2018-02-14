@@ -3,6 +3,7 @@ package matchsim;
 import database.GameDb;
 import database.PlayerDb;
 import database.SQLiteJDBCDriverConnection;
+import database.TeamDb;
 import player.Player;
 import startup.PlayerGen;
 import startup.TeamGen;
@@ -53,6 +54,7 @@ public class Game {
         PlayerGen.populatePlayerDB(80);
         //ArrayList<Integer> pids = PlayerDb.getUnassignedPlayers();
         TeamGen.buildTeam(1);
+        TeamDb.assignLinesDefault(1);
         gamesim.setState(new Faceoff(home, away, gamesim));
         for(int i=0; i<= 720; i++)
             gamesim.update();
