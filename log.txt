@@ -1,0 +1,715 @@
+0:00 --- John(Home) won the faceoff
+0:05 --- John misses net!
+0:10 --- Erik does not retain puck.
+0:15 --- Nathan passes puck
+0:20 --- Nathan fails clearing puck.
+0:25 --- Aaron clears puck.
+0:30 --- Tom passes puck
+0:35 --- John passes puck
+0:40 --- Nathan passes puck
+0:45 --- Sam fails clearing puck.
+0:50 --- Theo clears puck.
+0:55 --- Erik passes puck
+1:00 --- Mikko retains puck
+1:05 --- Mikko does not retain puck.
+1:10 --- Anders fails passing puck
+1:15 --- Tom does not retain puck.
+1:20 --- Anders passes puck
+1:25 --- Anders passes puck
+1:30 --- Nathan fails clearing puck.
+1:35 --- Theo retains puck
+1:40 --- Theo clears puck.
+1:45 --- Sam retains puck
+1:50 --- Sam fails passing puck
+1:55 --- Theo does not retain puck.
+2:00 --- John does not retain puck.
+2:05 --- Erik misses net!
+2:10 --- Nathan passes puck
+2:15 --- Anders retains puck
+2:20 --- Sam clears puck.
+2:25 --- Nathanscores!
+2:30 --- Tom(Away) won the faceoff
+2:35 --- Theo passes puck
+2:40 --- Mikko retains puck
+2:45 --- Mikko does not retain puck.
+2:50 --- John fails clearing puck.
+2:55 --- John fails clearing puck.
+3:00 --- Tom retains puck
+3:05 --- Tom fails clearing puck.
+3:10 --- Sam fails clearing puck.
+3:15 --- Mikko fails passing puck
+3:20 --- Anders fails clearing puck.
+3:25 --- Tom retains puck
+3:30 --- Sam passes puck
+3:35 --- John passes puck
+3:40 --- Michael clears puck.
+3:45 --- Michael does not retain puck.
+3:50 --- Tom fails clearing puck.
+3:55 --- Nathan does not retain puck.
+4:00 --- Aaron retains puck
+4:05 --- Nathan does not retain puck.
+4:10 --- Theo fails passing puck
+4:15 --- Nathan misses net!
+4:20 --- Aaron misses net!
+4:25 --- Anders does not retain puck.
+4:30 --- Mikko passes puck
+4:35 --- Mikko passes puck
+4:40 --- Sam retains puck
+4:45 --- Sam retains puck
+4:50 --- Sam fails passing puck
+4:55 --- Aaron misses net!
+5:00 --- Nathan does not retain puck.
+5:05 --- Theo fails passing puck
+5:10 --- Anders retains puck
+5:15 --- Michaelscores!
+5:20 --- John(Home) won the faceoff
+5:25 --- Michael retains puck
+5:30 --- Michael retains puck
+5:35 --- Michael fails passing puck
+5:40 --- Tom fails passing puck
+5:45 --- Sam misses net!
+5:50 --- John passes puck
+5:55 --- Michael retains puck
+6:00 --- Michael does not retain puck.
+6:05 --- Tom passes puck
+6:10 --- Mikko does not retain puck.
+6:15 --- Sam does not retain puck.
+6:20 --- Tom passes puck
+6:25 --- Michael clears puck.
+6:30 --- Michael clears puck.
+6:35 --- Anders fails clearing puck.
+6:40 --- Aaron clears puck.
+6:45 --- Aaron fails clearing puck.
+6:50 --- Nathanscores!
+6:55 --- John(Home) won the faceoff
+7:00 --- Anders passes puck
+7:05 --- Nathan retains puck
+7:10 --- Nathan fails clearing puck.
+7:15 --- Aaron fails clearing puck.
+7:20 --- John does not retain puck.
+7:25 --- Tom fails clearing puck.
+7:30 --- Michael does not retain puck.
+7:35 --- John fails clearing puck.
+7:40 --- Mikko fails clearing puck.
+7:45 --- Nathan passes puck
+7:50 --- Michael passes puck
+7:55 --- Michael passes puck
+8:00 --- Samscores!
+8:05 --- Tom(Away) won the faceoff
+8:10 --- John clears puck.
+8:15 --- Anders passes puck
+8:20 --- Sam misses net!
+8:25 --- Erik retains puck
+8:30 --- Erik passes puck
+8:35 --- Erik retains puck
+8:40 --- Erik does not retain puck.
+8:45 --- John clears puck.
+8:50 --- Michael retains puck
+8:55 --- Michael passes puck
+9:00 --- Anders passes puck
+9:05 --- John clears puck.
+9:10 --- Anders retains puck
+9:15 --- Anders fails clearing puck.
+9:20 --- Sam passes puck
+9:25 --- Nathan fails clearing puck.
+9:30 --- Theo passes puck
+9:35 --- Tom retains puck
+9:40 --- Tom misses net!
+9:45 --- Anders retains puck
+9:50 --- Anders does not retain puck.
+9:55 --- John passes puck
+10:00 --- John fails passing puck
+10:05 --- Mikko passes puck
+10:10 --- Tom passes puck
+10:15 --- Aaron retains puck
+10:20 --- Aaron fails passing puck
+10:25 --- Sam fails passing puck
+10:30 --- Anders misses net!
+10:35 --- Erik retains puck
+10:40 --- Erik passes puck
+10:45 --- Tom retains puck
+10:50 --- Tom does not retain puck.
+10:55 --- John fails clearing puck.
+11:00 --- Tom passes puck
+11:05 --- Michael retains puck
+11:10 --- Michael fails clearing puck.
+11:15 --- Aaron fails passing puck
+11:20 --- Nathan clears puck.
+11:25 --- Anders passes puck
+11:30 --- Michael misses net!
+11:35 --- Theo does not retain puck.
+11:40 --- Sam fails passing puck
+11:45 --- Mikko retains puck
+11:50 --- Mikko retains puck
+11:55 --- Mikko retains puck
+12:00 --- Mikko does not retain puck.
+12:05 --- Anders passes puck
+12:10 --- John fails clearing puck.
+12:15 --- Nathan retains puck
+12:20 --- Nathan passes puck
+12:25 --- Michael passes puck
+12:30 --- Anders retains puck
+12:35 --- Anders passes puck
+12:40 --- Sam passes puck
+12:45 --- Anders misses net!
+12:50 --- John passes puck
+12:55 --- Michael does not retain puck.
+13:00 --- Mikko does not retain puck.
+13:05 --- Anders clears puck.
+13:10 --- Sam retains puck
+13:15 --- Sam clears puck.
+13:20 --- Michael retains puck
+13:25 --- Anders retains puck
+13:30 --- Anders retains puck
+13:35 --- Anders passes puck
+13:40 --- Anders does not retain puck.
+13:45 --- Theo fails passing puck
+13:50 --- Sam does not retain puck.
+13:55 --- Tom clears puck.
+14:00 --- Nathan retains puck
+14:05 --- Nathan does not retain puck.
+14:10 --- Theo retains puck
+14:15 --- Theo passes puck
+14:20 --- Mikko retains puck
+14:25 --- Mikko passes puck
+14:30 --- Tom passes puck
+14:35 --- John does not retain puck.
+14:40 --- Mikko passes puck
+14:45 --- Mikko does not retain puck.
+14:50 --- John retains puck
+14:55 --- John passes puck
+15:00 --- Nathan retains puck
+15:05 --- Nathan retains puck
+15:10 --- Sam misses net!
+15:15 --- Tom does not retain puck.
+15:20 --- Anders fails passing puck
+15:25 --- Tom retains puck
+15:30 --- Tom passes puck
+15:35 --- Aaron retains puck
+15:40 --- Aaron fails passing puck
+15:45 --- Anders clears puck.
+15:50 --- Anders fails passing puck
+15:55 --- Aaronscores!
+16:00 --- Tom(Home) won the faceoff
+16:05 --- Aaron passes puck
+16:10 --- Mikko fails passing puck
+16:15 --- John fails clearing puck.
+16:20 --- Sam fails passing puck
+16:25 --- Tom clears puck.
+16:30 --- Theo retains puck
+16:35 --- Theo retains puck
+16:40 --- Theo does not retain puck.
+16:45 --- John does not retain puck.
+16:50 --- Erik retains puck
+16:55 --- Sam retains puck
+17:00 --- Sam retains puck
+17:05 --- Sam does not retain puck.
+17:10 --- Aaron passes puck
+17:15 --- Mikko fails clearing puck.
+17:20 --- John passes puck
+17:25 --- Nathan retains puck
+17:30 --- John does not retain puck.
+17:35 --- Theo fails passing puck
+17:40 --- Anders fails passing puck
+17:45 --- Theo misses net!
+17:50 --- Michael does not retain puck.
+17:55 --- Tom retains puck
+18:00 --- Tom retains puck
+18:05 --- Nathan fails passing puck
+18:10 --- Aaron passes puck
+18:15 --- Aaron fails passing puck
+18:20 --- Michael retains puck
+18:25 --- Michael retains puck
+18:30 --- Michael retains puck
+18:35 --- Michael passes puck
+18:40 --- John misses net!
+18:45 --- Tom fails passing puck
+18:50 --- Nathan fails passing puck
+18:55 --- Erik passes puck
+19:00 --- Aaron passes puck
+19:05 --- Theo retains puck
+19:10 --- Theo fails passing puck
+19:15 --- Nathan fails clearing puck.
+19:20 --- Erik fails passing puck
+19:25 --- Anders fails passing puck
+19:30 --- Aaron clears puck.
+19:35 --- Theo passes puck
+19:40 --- Tom fails passing puck
+19:45 --- Anders passes puck
+19:50 --- Anders fails clearing puck.
+19:55 --- Aaron clears puck.
+20:00 --- Tom retains puck
+20:05 --- Tom retains puck
+20:10 --- Tom passes puck
+20:15 --- Erik does not retain puck.
+20:20 --- John retains puck
+20:25 --- Nathan does not retain puck.
+20:30 --- Tom retains puck
+20:35 --- Tom clears puck.
+20:40 --- Erik retains puck
+20:45 --- Erik passes puck
+20:50 --- Mikko passes puck
+20:55 --- Mikko does not retain puck.
+21:00 --- Nathan passes puck
+21:05 --- John fails clearing puck.
+21:10 --- Tom retains puck
+21:15 --- Tom passes puck
+21:20 --- Tom does not retain puck.
+21:25 --- Nathan fails clearing puck.
+21:30 --- Mikko fails clearing puck.
+21:35 --- Nathan passes puck
+21:40 --- Michael clears puck.
+21:45 --- Sam does not retain puck.
+21:50 --- Tom does not retain puck.
+21:55 --- Sam passes puck
+22:00 --- John fails clearing puck.
+22:05 --- Mikko passes puck
+22:10 --- Sam clears puck.
+22:15 --- Anders retains puck
+22:20 --- Anders does not retain puck.
+22:25 --- Mikko passes puck
+22:30 --- Aaron does not retain puck.
+22:35 --- John retains puck
+22:40 --- John passes puck
+22:45 --- Nathan retains puck
+22:50 --- Nathan does not retain puck.
+22:55 --- Aaron fails passing puck
+23:00 --- Michael fails passing puck
+23:05 --- Tom retains puck
+23:10 --- Tom passes puck
+23:15 --- Erik does not retain puck.
+23:20 --- Michael passes puck
+23:25 --- Nathan does not retain puck.
+23:30 --- Aaron clears puck.
+23:35 --- Mikko retains puck
+23:40 --- Mikko passes puck
+23:45 --- Mikko retains puck
+23:50 --- Mikko passes puck
+23:55 --- Sam misses net!
+24:00 --- Theo passes puck
+24:05 --- Mikko fails passing puck
+24:10 --- Michael does not retain puck.
+24:15 --- Tom fails passing puck
+24:20 --- Anders fails clearing puck.
+24:25 --- Tom clears puck.
+24:30 --- John passes puck
+24:35 --- Anders misses net!
+24:40 --- Aaron misses net!
+24:45 --- Nathan does not retain puck.
+24:50 --- Erik fails passing puck
+24:55 --- Anders passes puck
+25:00 --- Nathan does not retain puck.
+25:05 --- Michael fails clearing puck.
+25:10 --- Mikko fails clearing puck.
+25:15 --- Anders clears puck.
+25:20 --- John clears puck.
+25:25 --- Anders passes puck
+25:30 --- Michael retains puck
+25:35 --- Michael passes puck
+25:40 --- Sam does not retain puck.
+25:45 --- Aaron fails clearing puck.
+25:50 --- Sam does not retain puck.
+25:55 --- Erik retains puck
+26:00 --- Erik does not retain puck.
+26:05 --- John passes puck
+26:10 --- Sam does not retain puck.
+26:15 --- Nathan does not retain puck.
+26:20 --- Aaron does not retain puck.
+26:25 --- Nathan passes puck
+26:30 --- Nathan fails clearing puck.
+26:35 --- Mikko clears puck.
+26:40 --- Tom passes puck
+26:45 --- Tom passes puck
+26:50 --- John fails clearing puck.
+26:55 --- Erik misses net!
+27:00 --- John fails passing puck
+27:05 --- Aaron passes puck
+27:10 --- Tom passes puck
+27:15 --- Erik retains puck
+27:20 --- Erik does not retain puck.
+27:25 --- Nathan fails passing puck
+27:30 --- Theo passes puck
+27:35 --- Aaronscores!
+27:40 --- John(Away) won the faceoff
+27:45 --- Anders passes puck
+27:50 --- John clears puck.
+27:55 --- John fails clearing puck.
+28:00 --- Anders fails clearing puck.
+28:05 --- Tom does not retain puck.
+28:10 --- Nathan fails clearing puck.
+28:15 --- Tom fails passing puck
+28:20 --- Anders does not retain puck.
+28:25 --- Theo fails clearing puck.
+28:30 --- Sam retains puck
+28:35 --- Michael passes puck
+28:40 --- Michael fails passing puck
+28:45 --- Tom fails passing puck
+28:50 --- Nathan passes puck
+28:55 --- John misses net!
+29:00 --- Theo does not retain puck.
+29:05 --- Nathan passes puck
+29:10 --- Sam passes puck
+29:15 --- Anders passes puck
+29:20 --- Sam fails clearing puck.
+29:25 --- Mikko fails passing puck
+29:30 --- Nathan retains puck
+29:35 --- Nathan fails passing puck
+29:40 --- Mikko passes puck
+29:45 --- John clears puck.
+29:55 --- Tom(Away) won the faceoff
+30:00 --- Erik does not retain puck.
+30:05 --- Sam passes puck
+30:10 --- Michael retains puck
+30:15 --- Michael passes puck
+30:20 --- John does not retain puck.
+30:25 --- Aaron does not retain puck.
+30:30 --- Michael retains puck
+30:35 --- Michael retains puck
+30:40 --- Michael retains puck
+30:45 --- Michael passes puck
+30:50 --- Anders passes puck
+30:55 --- Sam misses net!
+31:00 --- Aaron passes puck
+31:05 --- Mikko does not retain puck.
+31:15 --- Tom(Away) won the faceoff
+31:20 --- Theo fails passing puck
+31:25 --- Nathanscores!
+31:30 --- Tom(Away) won the faceoff
+31:35 --- Theo passes puck
+31:40 --- Theo passes puck
+31:45 --- Theo retains puck
+31:50 --- Theo misses net!
+31:55 --- Michael retains puck
+32:00 --- Michael passes puck
+32:05 --- John retains puck
+32:10 --- John passes puck
+32:15 --- Nathan retains puck
+32:20 --- Nathan retains puck
+32:25 --- Nathan passes puck
+32:30 --- Nathan fails clearing puck.
+32:35 --- Erik clears puck.
+32:40 --- Anders misses net!
+32:45 --- Aaron does not retain puck.
+32:50 --- John misses net!
+32:55 --- Erik retains puck
+33:00 --- Erik fails passing puck
+33:05 --- Anders does not retain puck.
+33:10 --- Erik fails passing puck
+33:15 --- Nathan retains puck
+33:20 --- Nathan retains puck
+33:25 --- Nathan does not retain puck.
+33:30 --- Erik passes puck
+33:35 --- Theo retains puck
+33:40 --- Theo retains puck
+33:45 --- Theo fails clearing puck.
+33:50 --- Nathan retains puck
+33:55 --- Nathan retains puck
+34:00 --- Nathan retains puck
+34:05 --- Nathan passes puck
+34:10 --- Anders fails passing puck
+34:15 --- Tom passes puck
+34:20 --- Erik passes puck
+34:25 --- John passes puck
+34:30 --- John retains puck
+34:35 --- John does not retain puck.
+34:40 --- Theo retains puck
+34:45 --- Theo fails passing puck
+34:50 --- Nathan retains puck
+34:55 --- Nathan passes puck
+35:00 --- Sam misses net!
+35:05 --- Theo passes puck
+35:10 --- Aaron retains puck
+35:15 --- Aaron retains puck
+35:20 --- Aaron retains puck
+35:25 --- Aaron retains puck
+35:30 --- Aaron retains puck
+35:35 --- Sam passes puck
+35:40 --- Sam clears puck.
+35:45 --- Anders retains puck
+35:50 --- Anders clears puck.
+35:55 --- John retains puck
+36:00 --- John passes puck
+36:05 --- Anders passes puck
+36:10 --- Sam does not retain puck.
+36:15 --- Erik retains puck
+36:20 --- Erik passes puck
+36:25 --- Mikko does not retain puck.
+36:30 --- John retains puck
+36:35 --- John passes puck
+36:40 --- John does not retain puck.
+36:45 --- John fails passing puck
+36:50 --- Erik misses net!
+36:55 --- Anders does not retain puck.
+37:00 --- Theo fails passing puck
+37:05 --- Sam retains puck
+37:10 --- Sam retains puck
+37:15 --- Sam retains puck
+37:20 --- Sam misses net!
+37:25 --- Mikko passes puck
+37:30 --- Aaron fails clearing puck.
+37:35 --- Nathan passes puck
+37:40 --- Sam passes puck
+37:45 --- John does not retain puck.
+37:50 --- Theo misses net!
+37:55 --- Anders does not retain puck.
+38:00 --- Aaron passes puck
+38:05 --- Erik passes puck
+38:10 --- Theo misses net!
+38:15 --- Michael fails passing puck
+38:20 --- Theo retains puck
+38:25 --- Theo misses net!
+38:30 --- Sam passes puck
+38:35 --- Nathan does not retain puck.
+38:40 --- Theo retains puck
+38:45 --- Theo fails clearing puck.
+38:50 --- Nathan retains puck
+38:55 --- Nathan fails clearing puck.
+39:00 --- Theo does not retain puck.
+39:05 --- Sam misses net!
+39:10 --- Tom retains puck
+39:15 --- Tom misses net!
+39:20 --- Anders retains puck
+39:25 --- Anders misses net!
+39:30 --- Aaron fails passing puck
+39:35 --- John does not retain puck.
+39:40 --- John passes puck
+39:45 --- Nathan passes puck
+39:50 --- Nathan passes puck
+39:55 --- Nathan fails clearing puck.
+40:00 --- Aaron clears puck.
+40:05 --- Mikko fails passing puck
+40:10 --- John retains puck
+40:15 --- John retains puck
+40:20 --- John passes puck
+40:25 --- Anders passes puck
+40:30 --- Anders retains puck
+40:35 --- Anders clears puck.
+40:40 --- John does not retain puck.
+40:45 --- Mikko fails clearing puck.
+40:50 --- Nathan fails passing puck
+40:55 --- Aaron fails clearing puck.
+41:00 --- Nathan fails clearing puck.
+41:05 --- Erik fails clearing puck.
+41:10 --- Nathan retains puck
+41:15 --- Nathan passes puck
+41:20 --- Nathan retains puck
+41:25 --- Michael passes puck
+41:30 --- Anders clears puck.
+41:35 --- John retains puck
+41:40 --- John retains puck
+41:45 --- Johnscores!
+41:50 --- Tom(Away) won the faceoff
+41:55 --- Mikko retains puck
+42:00 --- Sam passes puck
+42:05 --- Michael fails passing puck
+42:10 --- Mikko passes puck
+42:15 --- Tom passes puck
+42:20 --- Tom retains puck
+42:25 --- Tom misses net!
+42:30 --- Anders passes puck
+42:35 --- Michael passes puck
+42:40 --- Michael passes puck
+42:45 --- John does not retain puck.
+42:50 --- Aaron fails clearing puck.
+42:55 --- Sam fails clearing puck.
+43:00 --- Aaron passes puck
+43:05 --- Theo fails clearing puck.
+43:10 --- Sam retains puck
+43:15 --- Sam clears puck.
+43:20 --- Michael passes puck
+43:25 --- Sam passes puck
+43:30 --- Michael does not retain puck.
+43:35 --- Tom fails passing puck
+43:40 --- Michael passes puck
+43:45 --- Nathan does not retain puck.
+43:50 --- Erik fails passing puck
+43:55 --- Nathan fails clearing puck.
+44:00 --- Erik fails clearing puck.
+44:05 --- Nathan retains puck
+44:10 --- Nathan clears puck.
+44:15 --- John does not retain puck.
+44:20 --- Nathan retains puck
+44:25 --- Nathan passes puck
+44:30 --- John passes puck
+44:35 --- Michael fails clearing puck.
+44:40 --- Tom misses net!
+44:45 --- John fails passing puck
+44:50 --- Tom passes puck
+44:55 --- Nathan retains puck
+45:00 --- Nathan retains puck
+45:05 --- Nathanscores!
+45:10 --- Tom(Away) won the faceoff
+45:15 --- Tom retains puck
+45:20 --- Tom retains puck
+45:25 --- Tom does not retain puck.
+45:30 --- John does not retain puck.
+45:35 --- Theo clears puck.
+45:40 --- Aaron passes puck
+45:50 --- Tom(Home) won the faceoff
+45:55 --- Theo does not retain puck.
+46:00 --- John retains puck
+46:05 --- Michael retains puck
+46:10 --- Michael misses net!
+46:15 --- Mikko passes puck
+46:20 --- Erik misses net!
+46:25 --- Sam retains puck
+46:30 --- Sam passes puck
+46:35 --- John clears puck.
+46:40 --- John fails passing puck
+46:45 --- Aaron does not retain puck.
+46:50 --- Nathan does not retain puck.
+46:55 --- Aaron fails passing puck
+47:00 --- John clears puck.
+47:05 --- Nathan retains puck
+47:10 --- Nathan does not retain puck.
+47:15 --- Sam passes puck
+47:20 --- Michael does not retain puck.
+47:25 --- Theo fails passing puck
+47:30 --- Sam retains puck
+47:35 --- Sam misses net!
+47:40 --- Aaron passes puck
+47:45 --- Mikko passes puck
+47:50 --- John retains puck
+47:55 --- John clears puck.
+48:00 --- Nathan does not retain puck.
+48:05 --- Tom clears puck.
+48:10 --- Tom misses net!
+48:15 --- Sam does not retain puck.
+48:20 --- Mikko does not retain puck.
+48:25 --- Sam misses net!
+48:30 --- Mikko passes puck
+48:35 --- Tom passes puck
+48:40 --- Aaron passes puck
+48:45 --- Theo passes puck
+48:50 --- Erik passes puck
+48:55 --- Theo retains puck
+49:00 --- John retains puck
+49:05 --- John retains puck
+49:10 --- John passes puck
+49:15 --- John passes puck
+49:20 --- Nathan retains puck
+49:25 --- Nathan does not retain puck.
+49:30 --- Erik clears puck.
+49:35 --- John fails passing puck
+49:40 --- Tom passes puck
+49:45 --- Erik passes puck
+49:50 --- Mikko misses net!
+49:55 --- John retains puck
+50:00 --- John does not retain puck.
+50:05 --- Erik retains puck
+50:10 --- Anders passes puck
+50:15 --- John retains puck
+50:20 --- John passes puck
+50:25 --- Michael fails clearing puck.
+50:30 --- Tom fails passing puck
+50:35 --- Anders passes puck
+50:40 --- Anders retains puck
+50:45 --- Nathan fails clearing puck.
+50:50 --- Aaron fails passing puck
+50:55 --- Michael clears puck.
+51:00 --- Anders clears puck.
+51:05 --- John passes puck
+51:10 --- Michael retains puck
+51:15 --- Michael passes puck
+51:20 --- Sam fails clearing puck.
+51:25 --- Mikko fails passing puck
+51:30 --- Anders retains puck
+51:35 --- Anders passes puck
+51:40 --- Michael does not retain puck.
+51:45 --- Aaron retains puck
+51:50 --- Aaron passes puck
+51:55 --- Nathan fails passing puck
+52:00 --- Theo retains puck
+52:05 --- Theo does not retain puck.
+52:10 --- Michael passes puck
+52:15 --- John passes puck
+52:20 --- John retains puck
+52:25 --- John passes puck
+52:30 --- John passes puck
+52:35 --- John retains puck
+52:45 --- Tom(Away) won the faceoff
+52:50 --- Aaron does not retain puck.
+52:55 --- Michael does not retain puck.
+53:00 --- Tom retains puck
+53:05 --- Anders does not retain puck.
+53:10 --- Tom passes puck
+53:15 --- Aaron passes puck
+53:20 --- Aaron retains puck
+53:25 --- Aaron passes puck
+53:30 --- Tom retains puck
+53:35 --- Tom retains puck
+53:40 --- John passes puck
+53:45 --- Anders fails clearing puck.
+53:50 --- Theo does not retain puck.
+53:55 --- John clears puck.
+54:00 --- John does not retain puck.
+54:05 --- Erik clears puck.
+54:10 --- Tom does not retain puck.
+54:15 --- Sam passes puck
+54:20 --- Michael passes puck
+54:25 --- John clears puck.
+54:30 --- Sam passes puck
+54:35 --- Sam clears puck.
+54:40 --- Michael retains puck
+54:45 --- Michael fails clearing puck.
+54:50 --- Anders fails clearing puck.
+54:55 --- Erik passes puck
+55:00 --- Mikko retains puck
+55:05 --- Mikko does not retain puck.
+55:10 --- John retains puck
+55:15 --- John fails clearing puck.
+55:20 --- Tom passes puck
+55:25 --- Michael passes puck
+55:30 --- Sam does not retain puck.
+55:35 --- Aaron does not retain puck.
+55:40 --- Sam does not retain puck.
+55:45 --- Mikko retains puck
+55:55 --- Tom(Home) won the faceoff
+56:00 --- Nathan fails clearing puck.
+56:05 --- Erik fails clearing puck.
+56:10 --- John retains puck
+56:15 --- John does not retain puck.
+56:20 --- Erik misses net!
+56:25 --- Nathan retains puck
+56:30 --- Nathan passes puck
+56:35 --- Nathan retains puck
+56:40 --- Nathan fails clearing puck.
+56:45 --- Tom retains puck
+56:50 --- Tom fails passing puck
+56:55 --- John retains puck
+57:00 --- John retains puck
+57:05 --- John passes puck
+57:10 --- Anders fails passing puck
+57:15 --- Tom clears puck.
+57:20 --- Theo passes puck
+57:25 --- Erik fails passing puck
+57:30 --- Michael retains puck
+57:35 --- Michael fails passing puck
+57:40 --- Erik fails passing puck
+57:45 --- John clears puck.
+57:50 --- Anders passes puck
+57:55 --- Nathan passes puck
+58:00 --- Sam fails clearing puck.
+58:05 --- Mikko does not retain puck.
+58:10 --- Michael passes puck
+58:15 --- Anders clears puck.
+58:20 --- Michael fails passing puck
+58:25 --- Tom passes puck
+58:35 --- John(Away) won the faceoff
+58:40 --- John misses net!
+58:45 --- Erik retains puck
+58:50 --- Erik misses net!
+58:55 --- Michael retains puck
+59:00 --- Michael passes puck
+59:05 --- Nathan passes puck
+59:10 --- Nathan passes puck
+59:15 --- Sam clears puck.
+59:20 --- Nathan does not retain puck.
+59:25 --- Aaron does not retain puck.
+59:30 --- Sam fails passing puck
+59:35 --- Tom retains puck
+59:40 --- Tom passes puck
+59:45 --- Aaron passes puck
+59:50 --- Tom fails clearing puck.
+59:55 --- Anders fails clearing puck.
+60:00 --- Theo fails clearing puck.
