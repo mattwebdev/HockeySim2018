@@ -46,6 +46,15 @@ public class FSM {
             playerShiftCount[i] = TOTAL_SHIFTS * playerShiftDistribution[i];
         }
     }
+
+    public ArrayList<Player> getAwayOnIce() {
+        return awayOnIce;
+    }
+
+    public ArrayList<Player> getHomeOnIce() {
+        return homeOnIce;
+    }
+
     public GameStats getGameStats(){
         return gameLog;
     }
@@ -95,7 +104,7 @@ public class FSM {
         return randLine;
     }
     public void update(){
-        if(count % 9 ==0 ){
+        if(count % 9 ==0 && count != 0){
             int tempALine = aLine;
             int tempHLine = hLine;
             hLine = nextPossessorLine();
@@ -106,6 +115,17 @@ public class FSM {
                     TeamDb.getline(awayOnIce.get(0).getTeamID(), aLine));
         }
         currentState = currentState.next();
+        if(count / 240 == 1 && count % 240 == 0){
+            gameLog.writeGameLog(count, "1ST PERIOD ENDS\n");
+            this.setState(new Faceoff(homeOnIce, awayOnIce, this));
+        }
+        if(count / 240 == 2 && count % 240 == 0){
+            gameLog.writeGameLog(count, "2ND PERIOD ENDS\n");
+            this.setState(new Faceoff(homeOnIce, awayOnIce, this));
+        }
+        if(count / 240 == 3 && count % 240 == 0){
+            gameLog.writeGameLog(count, "END OF GAME\n");
+        }
         count++;
     }
 

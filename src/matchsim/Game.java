@@ -19,32 +19,6 @@ public class Game {
         /*
         < Center, LW, RW, LD, RD >
          */
-        Player p1 = new Player("John", 55,1, 80, 60);
-        Player p2 = new Player("Tom", 95,2, 60, 40);
-        Player p3 = new Player("Sam", 50,1, 75, 50);
-        Player p4 = new Player("Nathan", 50,1, 80, 35);
-        Player p5 = new Player("Anders", 50,1, 60, 85);
-        Player p6 = new Player("Michael", 75,1, 40, 90);
-        Player p7 = new Player("Aaron", 35,2, 60,30);
-        Player p8 = new Player("Erik", 80,2, 50,40);
-        Player p9 = new Player("Mikko", 20,2, 40,65);
-        Player p10 = new Player("Theo", 86,2, 50, 50);
-
-        Player p11 = new Player("Jaro", "G", 86,1, 50, 50, 90);
-        Player p12 = new Player("Timmy", "G", 86,2, 50, 50, 70);
-
-        ArrayList<Player> home = new ArrayList<Player>();
-        home.add(p1);
-        home.add(p3);
-        home.add(p4);
-        home.add(p5);
-        home.add(p6);
-        ArrayList<Player> away = new ArrayList<Player>();
-        away.add(p2);
-        away.add(p7);
-        away.add(p8);
-        away.add(p9);
-        away.add(p10);
         SQLiteJDBCDriverConnection.createNewDatabase();
         //SQLiteJDBCDriverConnection.connect();
         //PlayerGen.populatePlayerDB(100);
@@ -61,7 +35,7 @@ public class Game {
             Connect to SQLite database
          */
 
-        gamesim.setState(new Faceoff(home, away, gamesim));
+        gamesim.setState(new Faceoff(gamesim.getHomeOnIce(), gamesim.getAwayOnIce(), gamesim));
         for(int i=0; i<= 720; i++)
             gamesim.update();
         gamesim.exportGameLogtoFile();
