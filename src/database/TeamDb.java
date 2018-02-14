@@ -149,4 +149,12 @@ public class TeamDb {
         line.add(rd);
         return line;
     }
+    public static ArrayList<ArrayList<Player>> getLines(int teamid){
+        ArrayList<ArrayList<Player>> lines = new ArrayList<ArrayList<Player>>();
+        for(int i=1; i<=4; ++i){
+            ArrayList<Player> pArr =getline(teamid, i);
+            lines.add(pArr);
+        }
+        return lines;
+    }
 }

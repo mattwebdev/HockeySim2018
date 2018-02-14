@@ -24,7 +24,8 @@ public class Player {
     public int getDefensiveSkills() {
         return defensiveSkills;
     }
-    public Player(String name, String position, int faceoff, int teamID, int offensiveSkills, int defensiveSkills, int goalieskills){
+    public Player(int playerID,String name, String position, int faceoff, int teamID, int offensiveSkills, int defensiveSkills, int goalieskills){
+        this.playerID = playerID;
         this.position = position;
         this.name = name;
         this.faceoff = faceoff;
@@ -33,13 +34,14 @@ public class Player {
         this.defensiveSkills = defensiveSkills;
         this.goalieSkills = goalieskills;
     }
-    public Player(String name, int faceoff, int teamID, int offensiveSkills, int defensiveSkills){
+    public Player(String name, String position, int faceoff, int teamID, int offensiveSkills, int defensiveSkills, int goalieskills){
         this.name = name;
+        this.position = position;
         this.faceoff = faceoff;
         this.teamID = teamID;
         this.offensiveSkills = offensiveSkills;
         this.defensiveSkills = defensiveSkills;
-        this.goalieSkills = 0;
+        this.goalieSkills = goalieskills;
     }
     public String getPosition(){
         return position;

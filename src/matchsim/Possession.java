@@ -1,5 +1,6 @@
 package matchsim;
 
+import database.PlayerStatsDb;
 import player.Player;
 
 import java.lang.reflect.Array;
@@ -171,17 +172,17 @@ public class Possession implements State {
                 penaltyChance = 1;
                 break;
             case 1:
-                retainChance = 35;
-                passChance = 35;
+                retainChance = 30;
+                passChance = 40;
                 clearChance = 15;
                 shootChance = 14;
                 penaltyChance = 1;
                 break;
             case 2:
                 retainChance = 43;
-                passChance = 45;
+                passChance = 50;
                 clearChance = 0;
-                shootChance = 21;
+                shootChance = 16;
                 penaltyChance = 1;
                 break;
         }
@@ -219,6 +220,7 @@ public class Possession implements State {
             else {
                 String out = possessor.getName() + " does not retain puck.";
                 gamesim.writeGameLog(out);
+                gamesim.clearLastTwoPasses();
                 return new Possession(gamesim,enemyTeam.get(rand.nextInt(enemyTeam.size())), xpos, enemyTeam, possessorTeam);
             }
         }
@@ -230,12 +232,14 @@ public class Possession implements State {
                 String out = possessor.getName() + " passes puck";
                 gamesim.writeGameLog(out);
                 int newPos = rand.nextInt(5)-2;
+                gamesim.addLastTwoPasses(possessor);
                 return new Possession(gamesim,possessorTeam.get(rand.nextInt(enemyTeam.size())), newPos, possessorTeam, enemyTeam);
             }
             else{
                 String out = possessor.getName() + " fails passing puck";
                 gamesim.writeGameLog(out);
                 //System.out.print(possessor.getName() + " fails passing puck");
+                gamesim.clearLastTwoPasses();
                 return new Possession(gamesim,enemyTeam.get(rand.nextInt(enemyTeam.size())), xpos, enemyTeam, possessorTeam);
             }
         }
@@ -247,14 +251,17 @@ public class Possession implements State {
                 String out = possessor.getName() + " clears puck.";
                 gamesim.writeGameLog(out);
                 int recoverPercentage = rand.nextInt(50);
-                if(recoverPercentage < 50)
-                    return new Possession(gamesim,possessorTeam.get(rand.nextInt(enemyTeam.size())), xpos + 1, possessorTeam, enemyTeam);
+                if(recoverPercentage < 50) {
+                    gamesim.addLastTwoPasses(possessor);
+                    return new Possession(gamesim, possessorTeam.get(rand.nextInt(enemyTeam.size())), xpos + 1, possessorTeam, enemyTeam);
+                }
                 else
                     return new Possession(gamesim,enemyTeam.get(rand.nextInt(enemyTeam.size())), xpos + 1, enemyTeam, possessorTeam);
             }
             else{
                 String out = possessor.getName() + " fails clearing puck.";
                 gamesim.writeGameLog(out);
+                gamesim.clearLastTwoPasses();
                 //System.out.print(possessor.getName() + " fails clearing puck.");
                 return new Possession(gamesim,enemyTeam.get(rand.nextInt(enemyTeam.size())), xpos, enemyTeam, possessorTeam);
             }
@@ -265,12 +272,22 @@ public class Possession implements State {
             if(success){
                 gamesim.getGameStats().incrementGoals(possessor.getTeamID());
                 gamesim.writeGameLog(possessor.getName() + "scores!");
+                if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] != null) {
+                    PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
+                    PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[1].getPlayerID());
+                }
+                if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] == null)
+                    PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
                 //System.out.print(possessor.getName() + " scores!");
+                PlayerStatsDb.updateShots(possessor.getPlayerID());
+                PlayerStatsDb.updateGoals(possessor.getPlayerID());
                 return new Faceoff(possessorTeam, enemyTeam,gamesim);
             }
             else{
+                PlayerStatsDb.updateShots(possessor.getPlayerID());
                 gamesim.getGameStats().incrementShots(possessor.getTeamID());
                 gamesim.writeGameLog(possessor.getName() + " misses net!");
+                gamesim.clearLastTwoPasses();
                 return new Possession(gamesim,enemyTeam.get(rand.nextInt(enemyTeam.size())), 2, enemyTeam, possessorTeam);
             }
         }
@@ -278,6 +295,7 @@ public class Possession implements State {
             //System.out.print(possessor.getName() + " takes a penalty");
             gamesim.getGameStats().incrementPenalties(possessor.getTeamID());
             gamesim.setPenalty(possessor.getTeamID());
+            gamesim.clearLastTwoPasses();
             return new Faceoff(possessorTeam, enemyTeam, gamesim);
         }
     }

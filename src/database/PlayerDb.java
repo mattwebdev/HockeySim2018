@@ -34,7 +34,7 @@ public class PlayerDb {
         }
     }
     public static Player getPlayer(int pid){
-        String sql = "SELECT Name, Position, TeamID, Faceoff, OffensiveSkills, DefensiveSkills, GoalieSkills "
+        String sql = "SELECT PlayerID, Name, Position, TeamID, Faceoff, OffensiveSkills, DefensiveSkills, GoalieSkills "
                 + "FROM Player WHERE PlayerID= ?";
         String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
         try(Connection conn = DriverManager.getConnection(url)) {
@@ -42,8 +42,9 @@ public class PlayerDb {
             pstmt.setInt(1,pid);
 
             ResultSet rs = pstmt.executeQuery();
-            Player p = new Player(rs.getString("Name"), rs.getString("Position"),
-                    rs.getInt("Faceoff"), rs.getInt("TeamID"), rs.getInt("OffensiveSkills"),
+            Player p = new Player(rs.getInt("PlayerID"),rs.getString("Name"),
+                    rs.getString("Position"), rs.getInt("Faceoff"),
+                    rs.getInt("TeamID"), rs.getInt("OffensiveSkills"),
                     rs.getInt("DefensiveSkills"), rs.getInt("GoalieSkills"));
             return p;
         }

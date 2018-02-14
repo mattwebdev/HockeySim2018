@@ -28,24 +28,26 @@ public class Game {
         //TeamDb.assignLinesDefault(2);
         Player homeGoalie = PlayerDb.getPlayer(TeamDb.getPlayerAtPosition(1,"G1"));
         Player awayGoalie = PlayerDb.getPlayer(TeamDb.getPlayerAtPosition(2, "G1"));
-        FSM gamesim = new FSM(TeamDb.getline(1, 1), TeamDb.getline(2,1),
-            homeGoalie, awayGoalie,1, 1);
+
         //FSM gamesim = new FSM(home, away, p11, p12);
         /*
             Connect to SQLite database
          */
-
-        gamesim.setState(new Faceoff(gamesim.getHomeOnIce(), gamesim.getAwayOnIce(), gamesim));
-        for(int i=0; i<= 720; i++)
-            gamesim.update();
-        gamesim.exportGameLogtoFile();
-        GameDb.addGameToDatabase(gamesim.getGameStats().getHomeID(),
-                gamesim.getGameStats().getAwayID(),
-                gamesim.getGameStats().getGamelog(),
-                gamesim.getGameStats().getHomeGoals(),
-                gamesim.getGameStats().getAwayGoals(),
-                gamesim.getGameStats().getHomeShotsT1(),
-                gamesim.getGameStats().getAwayShotsT2());
-        System.out.print(gamesim.getGameStats().getGamelog());
+        for(int k=0; k<8; k++) {
+            FSM gamesim = new FSM(TeamDb.getline(1, 1), TeamDb.getline(2,1),
+                    homeGoalie, awayGoalie,1, 1);
+            gamesim.setState(new Faceoff(gamesim.getHomeOnIce(), gamesim.getAwayOnIce(), gamesim));
+            for (int i = 0; i <= 720; i++)
+                gamesim.update();
+                //gamesim.exportGameLogtoFile();
+                GameDb.addGameToDatabase(gamesim.getGameStats().getHomeID(),
+                        gamesim.getGameStats().getAwayID(),
+                        gamesim.getGameStats().getGamelog(),
+                        gamesim.getGameStats().getHomeGoals(),
+                        gamesim.getGameStats().getAwayGoals(),
+                        gamesim.getGameStats().getHomeShotsT1(),
+                        gamesim.getGameStats().getAwayShotsT2());
+        }
+        //System.out.print(gamesim.getGameStats().getGamelog());
     }
 }

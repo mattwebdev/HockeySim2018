@@ -60,6 +60,7 @@ public class SQLiteJDBCDriverConnection {
         TeamGen.buildTeam(2);
         TeamDb.assignLinesDefault(1);
         TeamDb.assignLinesDefault(2);
+        PlayerStatsDb.insertPlayerStats(100);
     }
     private static void createTables(){
         String url = "jdbc:sqlite:C://sqlite/dbs/hockeyDb.db";
@@ -74,12 +75,15 @@ public class SQLiteJDBCDriverConnection {
                 " INTEGER, RW2 INTEGER,LW3 INTEGER,C3 INTEGER, RW3 INTEGER, LW4 INTEGER," +
                 " C4 INTEGER, RW4 , LD1 INTEGER, RD1 INTEGER, LD2 INTEGER, RD2 INTEGER," +
                 " LD3 INTEGER, RD3 INTEGER, G1 INTEGER, G2 INTEGER)";
+        String sql4 = "CREATE TABLE PlayerStats( PlayerID INTEGER PRIMARY KEY , Goals INTEGER," +
+                " Assists INTEGER, Shots INTEGER, Points INTEGER)";
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {
             // create a new table
             stmt.execute(sql);
             stmt.execute(sql2);
             stmt.execute(sql3);
+            stmt.execute(sql4);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
