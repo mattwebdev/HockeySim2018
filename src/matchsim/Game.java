@@ -55,6 +55,7 @@ public class Game {
         //ArrayList<Integer> pids = PlayerDb.getUnassignedPlayers();
         TeamGen.buildTeam(1);
         TeamDb.assignLinesDefault(1);
+        System.out.println(TeamDb.getline(1, 1).get(0).getName());
         gamesim.setState(new Faceoff(home, away, gamesim));
         for(int i=0; i<= 720; i++)
             gamesim.update();
