@@ -47,7 +47,13 @@ public class Game {
                     gamesim.getGameStats().getAwayGoals(),
                     gamesim.getGameStats().getHomeShotsT1(),
                     gamesim.getGameStats().getAwayShotsT2());
+            System.out.println(((gamesim.a_lineshifts[0] * 45) / 60) + "\t" + (gamesim.h_lineshifts[0] * 45)/60);
+            System.out.println(((gamesim.a_lineshifts[1] * 45) / 60) + "\t" + (gamesim.h_lineshifts[1] * 45)/60);
+            System.out.println(((gamesim.a_lineshifts[2] * 45) / 60) + "\t" + (gamesim.h_lineshifts[2] * 45)/60);
+            System.out.println(((gamesim.a_lineshifts[3] * 45) / 60) + "\t" + (gamesim.h_lineshifts[3] * 45)/60);
+            System.out.println(gamesim.linechange + "line changes");
         }
+
         //System.out.print(gamesim.getGameStats().getGamelog());
     }
 }

@@ -272,19 +272,19 @@ public class Possession implements State {
             if(success){
                 gamesim.getGameStats().incrementGoals(possessor.getTeamID());
                 gamesim.writeGameLog(possessor.getName() + "scores!");
-                if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] != null) {
-                    PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
-                    PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[1].getPlayerID());
-                }
-                if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] == null)
-                    PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
+                //if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] != null) {
+                    //PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
+                    //PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[1].getPlayerID());
+                //}
+                //if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] == null)
+                    //PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
                 //System.out.print(possessor.getName() + " scores!");
-                PlayerStatsDb.updateShots(possessor.getPlayerID());
-                PlayerStatsDb.updateGoals(possessor.getPlayerID());
+                //PlayerStatsDb.updateShots(possessor.getPlayerID());
+                //PlayerStatsDb.updateGoals(possessor.getPlayerID());
                 return new Faceoff(possessorTeam, enemyTeam,gamesim);
             }
             else{
-                PlayerStatsDb.updateShots(possessor.getPlayerID());
+                //PlayerStatsDb.updateShots(possessor.getPlayerID());
                 gamesim.getGameStats().incrementShots(possessor.getTeamID());
                 gamesim.writeGameLog(possessor.getName() + " misses net!");
                 gamesim.clearLastTwoPasses();

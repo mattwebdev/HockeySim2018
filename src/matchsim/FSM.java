@@ -13,19 +13,17 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class FSM {
-    private static int TOTAL_SHIFTS = 80;
-
     private State currentState;
     private ArrayList<Player> homeOnIce;
     private ArrayList<Player> awayOnIce;
     private Player homeGoalie;
     private Player awayGoalie;
-
+    int[] h_lineshifts;
+    int[] a_lineshifts;
     private ArrayList<ArrayList<Player>> homeRoster;
     private ArrayList<ArrayList<Player>> awayRoster;
     private Player[] lastTwoPasses;
     private double[] playerShiftDistribution = {.31,.27,.23,.19};
-    private int[] playerShiftCount;
     private int onPowerPlay;
     private int count= 0;
     private int aLinePrev;
@@ -46,18 +44,10 @@ public class FSM {
         this.hLine = hLine;
         aLinePrev = 0;
         hLinePrev = 0;
+        h_lineshifts = new int[4];
+        a_lineshifts = new int[4];
         gameLog = new GameStats(home.get(0).getTeamID(), away.get(0).getTeamID());
-        playerShiftCount = new int[4];
         lastTwoPasses = new Player[2];
-        /*
-            PlayerShiftCount is the approx number of shifts needed to fulfil the
-            set distribution of shifts
-            *i.e. first line players have 31% of shifts, so out of 80
-            shifts they must have 26*
-         */
-        for(int i=0; i < playerShiftCount.length; ++i){
-            playerShiftCount[i] = (int)Math.round((TOTAL_SHIFTS * playerShiftDistribution[i]));
-        }
     }
     /*
     Tracks Assists stats. lastTwoPasses[0] is primary assist, lastTwoPasses[1] is secondary
@@ -148,42 +138,43 @@ public class FSM {
     }
     /*
         Calculates what the next line should be based on the 2 last lines put out
+        {.31,.27,.23,.19};
      */
     public int nextPossessorLine(){
-        ArrayList<Integer> available = new ArrayList<Integer>();
-        available.add(1); available.add(2); available.add(3); available.add(4);
+        int chosenLine = -1;
         Random rand = new Random();
-        int randLine =  rand.nextInt(available.size())+1;
-        if(playerShiftCount[randLine-1] == 0)
-            available.remove(Integer.valueOf(randLine));
-        while(randLine == hLine &&  playerShiftCount[randLine-1] ==0){
-            //System.out.println("looking");
-            if(available.size()==1){
-                randLine=rand.nextInt(4)+1;
+        do{
+            int randLine = rand.nextInt(100);
+            if (randLine < 35) {
+                chosenLine = 1;
+            } else if (randLine < 35 + 27) {
+                chosenLine = 2;
+            } else if (randLine < 35 + 27 + 20) {
+                chosenLine = 3;
+            } else {
+                chosenLine = 4;
             }
-            else
-                randLine = rand.nextInt(available.size())+1;
-        }
-        playerShiftCount[randLine-1] = playerShiftCount[randLine-1] - 1;
-        return randLine;
+        }while(chosenLine == hLine);
+        h_lineshifts[chosenLine-1]++;
+        return chosenLine;
     }
     public int nextEnemyLine(){
-        ArrayList<Integer> available = new ArrayList<Integer>();
-        available.add(1); available.add(2); available.add(3); available.add(4);
+        int chosenLine = -1;
         Random rand = new Random();
-        int randLine =  rand.nextInt(available.size())+1;
-        if(playerShiftCount[randLine-1] == 0)
-            available.remove(Integer.valueOf(randLine));
-        while(randLine == aLine && playerShiftCount[randLine-1] ==0){
-            //System.out.println("looking" + randLine);
-            if(available.size()==1){
-                randLine=rand.nextInt(4)+1;
+        do {
+            int randLine = rand.nextInt(100);
+            if (randLine < 35) {
+                chosenLine = 1;
+            } else if (randLine < 35 + 25) {
+                chosenLine = 2;
+            } else if (randLine < 35 + 25 + 20) {
+                chosenLine = 3;
+            } else {
+                chosenLine = 4;
             }
-            else
-                randLine = rand.nextInt(available.size())+1;
-        }
-        playerShiftCount[randLine-1] = playerShiftCount[randLine-1] - 1;
-        return randLine;
+        }while(chosenLine == aLine);
+        a_lineshifts[chosenLine-1]++;
+        return chosenLine;
     }
     /*
         Updates each individual state and checks for major events (line changes and end of periods)
@@ -216,7 +207,6 @@ public class FSM {
             gameLog.writeGameLog(count, "END OF GAME\n");
         }
         count++; //increment time after each update
-        System.out.println(Arrays.toString(playerShiftCount));
     }
 
 }
