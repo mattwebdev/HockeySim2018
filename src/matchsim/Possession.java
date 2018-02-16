@@ -14,11 +14,11 @@ public class Possession implements State {
     private static final int BASE_RETAIN_SUCCESS = 60;
     private static final int BASE_RETAIN_VARIATION = 40;
 
-    private static final int BASE_PASS_SUCCESS = 70;
-    private static final int BASE_PASS_VARIATION = 30;
+    private static final int BASE_PASS_SUCCESS = 85;
+    private static final int BASE_PASS_VARIATION = 15;
 
     private static final int BASE_SHOOT_SUCCESS = 15;
-    private static final int BASE_SHOOT_VARIATION = 10;
+    private static final int BASE_SHOOT_VARIATION = 15;
 
     private static final int BASE_CLEAR_SUCCESS = 40;
     private static final int BASE_CLEAR_VARIATION = 40;
@@ -120,6 +120,10 @@ public class Possession implements State {
         int goalieSkillsEnemy = gamesim.getGoalie(enemyTeam.get(0).getTeamID()).getGoalieSkills();
         double shootSuccess = BASE_SHOOT_SUCCESS +
                 ((double)(avgOffensiveSkillsPossessor-(avgDefensiveSkillsEnemy+goalieSkillsEnemy)/2)/100)*BASE_SHOOT_VARIATION;
+        if(possessor.getPosition().contains("D")){
+            shootSuccess = (BASE_SHOOT_SUCCESS/3) +
+                    ((double)(avgOffensiveSkillsPossessor-(avgDefensiveSkillsEnemy+goalieSkillsEnemy)/2)/100)*BASE_SHOOT_VARIATION;
+        }
         //System.out.println(randnum + " " + shootSuccess + " " + possessor.getTeamID());
         if(randnum < shootSuccess) {
             return true;
@@ -166,23 +170,23 @@ public class Possession implements State {
                 break;
             case 0:
                 retainChance = 35;
-                passChance = 39;
+                passChance = 44;
                 clearChance = 15;
-                shootChance = 10;
+                shootChance = 5;
                 penaltyChance = 1;
                 break;
             case 1:
-                retainChance = 30;
-                passChance = 40;
-                clearChance = 15;
-                shootChance = 14;
+                retainChance = 25;
+                passChance = 64;
+                clearChance = 5;
+                shootChance = 5;
                 penaltyChance = 1;
                 break;
             case 2:
-                retainChance = 43;
-                passChance = 50;
+                retainChance = 14;
+                passChance = 75;
                 clearChance = 0;
-                shootChance = 16;
+                shootChance = 10;
                 penaltyChance = 1;
                 break;
         }
@@ -231,9 +235,14 @@ public class Possession implements State {
                 //System.out.print(possessor.getName() + " passes puck");
                 String out = possessor.getName() + " passes puck";
                 gamesim.writeGameLog(out);
-                int newPos = rand.nextInt(5)-2;
+                int newPos = rand.nextInt(2);
                 gamesim.addLastTwoPasses(possessor);
-                return new Possession(gamesim,possessorTeam.get(rand.nextInt(enemyTeam.size())), newPos, possessorTeam, enemyTeam);
+                if(xpos == 2)
+                    return new Possession(gamesim,possessorTeam.get(rand.nextInt(enemyTeam.size())), xpos, possessorTeam, enemyTeam);
+                if(newPos == 0)
+                    return new Possession(gamesim,possessorTeam.get(rand.nextInt(enemyTeam.size())), xpos, possessorTeam, enemyTeam);
+                else
+                    return new Possession(gamesim,possessorTeam.get(rand.nextInt(enemyTeam.size())), xpos+1, possessorTeam, enemyTeam);
             }
             else{
                 String out = possessor.getName() + " fails passing puck";
@@ -272,18 +281,25 @@ public class Possession implements State {
             if(success){
                 gamesim.getGameStats().incrementGoals(possessor.getTeamID());
                 gamesim.writeGameLog(possessor.getName() + "scores!");
-                //if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] != null) {
+                if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] != null) {
+                    gamesim.getGameStats().addPrimaryAssister(gamesim.getLastTwoPasses()[0].getPlayerID());
+                    gamesim.getGameStats().addSecondaryAssister(gamesim.getLastTwoPasses()[1].getPlayerID());
                     //PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
                     //PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[1].getPlayerID());
-                //}
-                //if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] == null)
+                }
+                if(gamesim.getLastTwoPasses()[0] != null && gamesim.getLastTwoPasses()[1] == null) {
+                    gamesim.getGameStats().addPrimaryAssister(gamesim.getLastTwoPasses()[0].getPlayerID());
                     //PlayerStatsDb.updateAssists(gamesim.getLastTwoPasses()[0].getPlayerID());
+                }
                 //System.out.print(possessor.getName() + " scores!");
+                gamesim.getGameStats().addShot(possessor.getPlayerID());
+                gamesim.getGameStats().addGoalScorer(possessor.getPlayerID());
                 //PlayerStatsDb.updateShots(possessor.getPlayerID());
                 //PlayerStatsDb.updateGoals(possessor.getPlayerID());
                 return new Faceoff(possessorTeam, enemyTeam,gamesim);
             }
             else{
+                gamesim.getGameStats().addShot(possessor.getPlayerID());
                 //PlayerStatsDb.updateShots(possessor.getPlayerID());
                 gamesim.getGameStats().incrementShots(possessor.getTeamID());
                 gamesim.writeGameLog(possessor.getName() + " misses net!");

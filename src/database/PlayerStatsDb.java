@@ -22,18 +22,20 @@ public class PlayerStatsDb {
             }
         }
     }
-    public static void updateGoals(int pid){
-        String sql = "UPDATE PlayerStats SET Goals = Goals+1"
+    public static void updateGoals(int pid, int goals){
+        String sql = "UPDATE PlayerStats SET Goals = Goals+?"
                 + " WHERE PlayerID = ?";
-        String sql2 = "UPDATE PlayerStats SET Points = Points+1"
+        String sql2 = "UPDATE PlayerStats SET Points = Points+?"
                 + " WHERE PlayerID = ?";
         String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
         try (Connection conn = DriverManager.getConnection(url)){
             PreparedStatement pstmt = conn.prepareStatement(sql);
             PreparedStatement pstmt2 = conn.prepareStatement(sql2);
             // set the corresponding param
-            pstmt.setInt(1, pid);
-            pstmt2.setInt(1,pid);
+            pstmt.setInt(1, goals);
+            pstmt.setInt(2,pid);
+            pstmt2.setInt(1,goals);
+            pstmt2.setInt(2,pid);
             // update
             pstmt.executeUpdate();
             pstmt2.executeUpdate();
@@ -41,18 +43,20 @@ public class PlayerStatsDb {
             System.out.println(e.getMessage());
         }
     }
-    public static void updateAssists(int pid){
-        String sql = "UPDATE PlayerStats SET Assists = Assists+1"
+    public static void updateAssists(int pid, int assists){
+        String sql = "UPDATE PlayerStats SET Assists = Assists+?"
                 + " WHERE PlayerID = ?";
-        String sql2 = "UPDATE PlayerStats SET Points = Points+1"
+        String sql2 = "UPDATE PlayerStats SET Points = Points+?"
                 + " WHERE PlayerID = ?";
         String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
         try (Connection conn = DriverManager.getConnection(url)){
             PreparedStatement pstmt = conn.prepareStatement(sql);
             PreparedStatement pstmt2 = conn.prepareStatement(sql2);
             // set the corresponding param
-            pstmt.setInt(1, pid);
-            pstmt2.setInt(1, pid);
+            pstmt.setInt(1, assists);
+            pstmt.setInt(2,pid);
+            pstmt2.setInt(1, assists);
+            pstmt2.setInt(2,pid);
             // update
             pstmt.executeUpdate();
             pstmt2.executeUpdate();
@@ -60,8 +64,8 @@ public class PlayerStatsDb {
             System.out.println(e.getMessage());
         }
     }
-    public static void updateShots(int pid){
-        String sql = "UPDATE PlayerStats SET Shots = Shots+1"
+    public static void updateShots(int pid, int shots){
+        String sql = "UPDATE PlayerStats SET Shots = Shots+?"
                 + " WHERE PlayerID = ?";
 
         String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
@@ -69,7 +73,8 @@ public class PlayerStatsDb {
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
-            pstmt.setInt(1, pid);
+            pstmt.setInt(1, shots);
+            pstmt.setInt(2, pid);
             // update
             pstmt.executeUpdate();
         } catch (SQLException e) {

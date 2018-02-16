@@ -47,20 +47,24 @@ public class SQLiteJDBCDriverConnection {
                 System.out.println("The driver name is " + meta.getDriverName());
                 System.out.println("A new database has been created.");
                 createTables();
-                doInitalRoutines();
+                doInitalRoutines(15);
             }
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
     }
-    private static void doInitalRoutines(){
-        PlayerGen.populatePlayerDB(100);
-        TeamGen.buildTeam(1);
-        TeamGen.buildTeam(2);
-        TeamDb.assignLinesDefault(1);
-        TeamDb.assignLinesDefault(2);
-        PlayerStatsDb.insertPlayerStats(100);
+    private static void doInitalRoutines(int teams){
+        PlayerGen.populatePlayerDB(400);
+        for(int i=1; i<=teams; ++i){
+            TeamGen.buildTeam(i);
+            TeamDb.assignLinesDefault(i);
+        }
+        //TeamGen.buildTeam(1);
+        //TeamGen.buildTeam(2);
+        //TeamDb.assignLinesDefault(1);
+        //TeamDb.assignLinesDefault(2);
+        PlayerStatsDb.insertPlayerStats(400);
     }
     private static void createTables(){
         String url = "jdbc:sqlite:C://sqlite/dbs/hockeyDb.db";

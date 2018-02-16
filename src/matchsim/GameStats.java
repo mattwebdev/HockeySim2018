@@ -1,5 +1,11 @@
 package matchsim;
 
+import database.PlayerStatsDb;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 public class GameStats {
     private int T1ID;
     private int T2ID;
@@ -10,12 +16,49 @@ public class GameStats {
     private int numShotsT1 = 0;
     private int numShotsT2 = 0;
 
+    private ArrayList<Integer> goalScorersPIDS;
+    private ArrayList<Integer> primaryAssistersPIDS;
+    private ArrayList<Integer> secondaryAssistersPIDS;
+    private HashMap<Integer, Integer> numShots; //index = pid
+
     private String gamelog;
 
     GameStats(int homeID, int awayID){
+        goalScorersPIDS = new ArrayList<>();
+        primaryAssistersPIDS = new ArrayList<>();
+        secondaryAssistersPIDS = new ArrayList<>();
+        numShots = new HashMap<>();
         T1ID = homeID;
         T2ID = awayID;
         gamelog = "";
+    }
+    public void addGoalScorer(int pid){
+        goalScorersPIDS.add(pid);
+    }
+    public void addPrimaryAssister(int pid){
+        primaryAssistersPIDS.add(pid);
+    }
+    public void addSecondaryAssister(int pid){
+        secondaryAssistersPIDS.add(pid);
+    }
+    public void addShot(int pid){
+        if(numShots.get(pid) == null)
+            numShots.put(pid, 1);
+        else
+            numShots.put(pid, numShots.get(pid)+1);
+    }
+    public void updateDatabaseWithPlayerStats(){
+        for(int pid: goalScorersPIDS)
+            PlayerStatsDb.updateGoals(pid, 1);
+        for(int pid: primaryAssistersPIDS)
+            PlayerStatsDb.updateAssists(pid, 1);
+        for(int pid: secondaryAssistersPIDS)
+            PlayerStatsDb.updateAssists(pid,1);
+        for(Map.Entry<Integer,Integer> entry: numShots.entrySet()){
+            int pid = entry.getKey();
+            int shots = entry.getValue();
+            PlayerStatsDb.updateShots(pid, shots);
+        }
     }
     public int getHomeID(){
         return T1ID;

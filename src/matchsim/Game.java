@@ -15,10 +15,33 @@ AWAY  | HOME
 -2 -1 0 1 2
  */
 public class Game {
-    public static void main(String[] args){
-        /*
+    FSM gamesim;
+    public Game(int hteamID, int ateamID){
+        Player homeGoalie = PlayerDb.getPlayer(TeamDb.getPlayerAtPosition(hteamID,"G1"));
+        Player awayGoalie = PlayerDb.getPlayer(TeamDb.getPlayerAtPosition(ateamID, "G1"));
+        gamesim = new FSM(TeamDb.getline(hteamID, 1), TeamDb.getline(ateamID, 1),
+                homeGoalie, awayGoalie, 1, 1);
+
+    }
+    public void sim(){
+        gamesim.setState(new Faceoff(gamesim.getHomeOnIce(), gamesim.getAwayOnIce(), gamesim));
+        for (int i = 0; i <= 720; i++) {
+            gamesim.update();
+            //gamesim.exportGameLogtoFile();
+        }
+        GameDb.addGameToDatabase(gamesim.getGameStats().getHomeID(),
+                gamesim.getGameStats().getAwayID(),
+                gamesim.getGameStats().getGamelog(),
+                gamesim.getGameStats().getHomeGoals(),
+                gamesim.getGameStats().getAwayGoals(),
+                gamesim.getGameStats().getHomeShotsT1(),
+                gamesim.getGameStats().getAwayShotsT2());
+        gamesim.getGameStats().updateDatabaseWithPlayerStats();
+    }
+    /*public static void main(String[] args){
+
         < Center, LW, RW, LD, RD >
-        */
+
         SQLiteJDBCDriverConnection.createNewDatabase();
         //SQLiteJDBCDriverConnection.connect();
         //PlayerGen.populatePlayerDB(100);
@@ -32,7 +55,7 @@ public class Game {
         //FSM gamesim = new FSM(home, away, p11, p12);
 
         //generate k amount of games
-        for(int k=0; k<1; k++) {
+        for(int k=0; k<82; k++) {
             FSM gamesim = new FSM(TeamDb.getline(1, 1), TeamDb.getline(2, 1),
                     homeGoalie, awayGoalie, 1, 1);
             gamesim.setState(new Faceoff(gamesim.getHomeOnIce(), gamesim.getAwayOnIce(), gamesim));
@@ -47,13 +70,9 @@ public class Game {
                     gamesim.getGameStats().getAwayGoals(),
                     gamesim.getGameStats().getHomeShotsT1(),
                     gamesim.getGameStats().getAwayShotsT2());
-            System.out.println(((gamesim.a_lineshifts[0] * 45) / 60) + "\t" + (gamesim.h_lineshifts[0] * 45)/60);
-            System.out.println(((gamesim.a_lineshifts[1] * 45) / 60) + "\t" + (gamesim.h_lineshifts[1] * 45)/60);
-            System.out.println(((gamesim.a_lineshifts[2] * 45) / 60) + "\t" + (gamesim.h_lineshifts[2] * 45)/60);
-            System.out.println(((gamesim.a_lineshifts[3] * 45) / 60) + "\t" + (gamesim.h_lineshifts[3] * 45)/60);
-            System.out.println(gamesim.linechange + "line changes");
+            gamesim.getGameStats().updateDatabaseWithPlayerStats();
         }
 
         //System.out.print(gamesim.getGameStats().getGamelog());
-    }
+    }*/
 }
