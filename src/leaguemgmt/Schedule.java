@@ -1,10 +1,7 @@
 package leaguemgmt;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Random;
+import java.util.*;
 
 public class Schedule {
     private static int SCHEDULE_DAYS = 7 * 14;
@@ -13,7 +10,7 @@ public class Schedule {
      */
     private static int NUM_INTERDIV_GAMES = 5;
     private static int NUM_LEAGUE_GAMES = 2;
-    private static int SCHEDULE_UPPER_BOUND = 6;
+    private static int SCHEDULE_UPPER_BOUND = 8;
     private int numTeams;
     ArrayList<ArrayList<Integer>> teamsToPlay;
     ArrayList<ArrayList<ArrayList<Integer>>> totalSchedule;
@@ -26,6 +23,9 @@ public class Schedule {
         for(int i=0; i<teams; ++i)
             teamsToPlay.set(i, teamsToPlay(i+1));
         generateNewSchedule();
+    }
+    public ArrayList<Integer> getMatchupsLeft(int teamid){
+        return teamsToPlay.get(teamid);
     }
     public int getTotalDays(){
         return totalSchedule.size();
@@ -80,7 +80,7 @@ public class Schedule {
          */
         int kcount =0;
         Random rand = new Random();
-        ArrayList<Integer> completedTeams = new ArrayList<>();
+        Set completedTeams = new HashSet<Integer>();
         for(int i=0; i< SCHEDULE_DAYS; ++i){
             int gamesScheduled = rand.nextInt(SCHEDULE_UPPER_BOUND)+1;
             ArrayList<ArrayList<Integer>> daySchedule = new ArrayList<>();
@@ -88,10 +88,11 @@ public class Schedule {
                 ArrayList<Integer> matchup = new ArrayList<>();
                 int randomTeam = rand.nextInt(15) + 1;
                 while (teamsToPlay.get(randomTeam-1).size() == 0) { //if team has no more games find new team
+                    completedTeams.add(randomTeam);
                     if(completedTeams.size() == numTeams){
+                        System.out.println("DONE");
                         return;
                     }
-                    completedTeams.add(randomTeam);
                     randomTeam = rand.nextInt(15) + 1;
                 }
                 ArrayList<Integer> randomTeamScheduledGames = teamsToPlay.get(randomTeam-1);

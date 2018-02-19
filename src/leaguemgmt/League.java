@@ -26,10 +26,10 @@ public class League {
             day = s.getMatchupsOnDay(i);
             for (ArrayList<Integer> matchup : day) {
                 //System.out.println("-----------");
-                if(matchup.get(0) == 2 || matchup.get(1) ==2){
+                if(matchup.get(0) == 1 || matchup.get(1) ==1){
                     gamecount++;
                 }
-                if((matchup.get(0) == 2 && matchup.get(1) == 3) || (matchup.get(1) == 2 && matchup.get(0) ==3)){
+                if((matchup.get(0) == 1 && matchup.get(1) == 15) || (matchup.get(1) == 1 && matchup.get(0) ==15)){
                     divgamecount++;
                 }
                 //System.out.println(matchup.get(0));
@@ -37,8 +37,9 @@ public class League {
             }
             //System.out.println("*************");
         }
-        System.out.println("Team 4 played " + gamecount + "games");
-        System.out.println("Team 4 played " + divgamecount + "games against Team 3");
+        System.out.println("Team 1 played " + gamecount + "games");
+        System.out.println(Arrays.toString(s.getMatchupsLeft(0).toArray()));
+        System.out.println("Team 1 played " + divgamecount + "games against Team 15");
         System.out.println("simming");
         g1.sim();
     }
