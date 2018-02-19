@@ -21,8 +21,8 @@ public class League {
         int gamecount = 0;
         int divgamecount = 0;
 
-        System.out.println(s.teamsToPlay(4).size());
-        for(int i=0; i<98; ++i) {
+        //System.out.println(s.teamsToPlay(4).size());
+        for(int i=0; i<s.getTotalDays(); ++i) {
             day = s.getMatchupsOnDay(i);
             for (ArrayList<Integer> matchup : day) {
                 //System.out.println("-----------");
