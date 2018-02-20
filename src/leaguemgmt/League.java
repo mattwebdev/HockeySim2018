@@ -22,8 +22,10 @@ public class League {
         int divgamecount = 0;
 
         //System.out.println(s.teamsToPlay(4).size());
-        Game g1 = new Game(1, 15);
-        g1.sim();
+        for(int i=0; i<5; ++i) {
+            Game g1 = new Game(rand.nextInt(15)+1, rand.nextInt(15)+1);
+            g1.sim();
+        }
         //System.out.println("simming");
 
     }

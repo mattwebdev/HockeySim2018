@@ -2,6 +2,7 @@ package matchsim;
 
 import database.PlayerDb;
 import database.PlayerStatsDb;
+import database.TeamDb;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -32,6 +33,20 @@ public class GameStats {
         T1ID = homeID;
         T2ID = awayID;
         gamelog = "";
+    }
+    public void updateTeamRecord(){
+        if(numGoalsT1> numGoalsT2){
+            TeamDb.updateWins(T1ID);
+            TeamDb.updateLoses(T2ID);
+        }
+        else if(numGoalsT1 < numGoalsT2){
+            TeamDb.updateWins(T2ID);
+            TeamDb.updateLoses(T1ID);
+        }
+        else{
+            TeamDb.updateTies(T1ID);
+            TeamDb.updateTies(T2ID);
+        }
     }
     public void addGoalScorer(int pid){
         goalScorersPIDS.add(pid);

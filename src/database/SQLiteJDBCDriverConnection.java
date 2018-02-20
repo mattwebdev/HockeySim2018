@@ -74,7 +74,8 @@ public class SQLiteJDBCDriverConnection {
         String sql2 = "CREATE TABLE Player( PlayerID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT," +
                 " Position TEXT, TeamID INTEGER, Faceoff INTEGER, OffensiveSkills" +
                 " INTEGER, DefensiveSkills INTEGER, GoalieSkills INTEGER )";
-        String sql3 = "CREATE TABLE Team( TeamID INTEGER PRIMARY KEY, LW1 INTEGER," +
+        String sql3 = "CREATE TABLE Team( TeamID INTEGER PRIMARY KEY, Wins INTEGER, Loses INTEGER, Ties INTEGER," +
+                " LW1 INTEGER," +
                 " C1 INTEGER, RW1 INTEGER, LW2 INTEGER, C2" +
                 " INTEGER, RW2 INTEGER,LW3 INTEGER,C3 INTEGER, RW3 INTEGER, LW4 INTEGER," +
                 " C4 INTEGER, RW4 , LD1 INTEGER, RD1 INTEGER, LD2 INTEGER, RD2 INTEGER," +

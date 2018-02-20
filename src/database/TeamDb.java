@@ -9,7 +9,7 @@ import java.util.Random;
 public class TeamDb {
     private static void initializeLines(int teamid){
         String sql = "INSERT INTO Team" +
-                     "( TeamID, LW1, C1, RW1," +
+                     "( TeamID, Wins, Loses, Ties, LW1, C1, RW1," +
                 " LW2, C2, RW2," +
                 " LW3, C3, RW3," +
                 " LW4, C4, RW4," +
@@ -17,7 +17,7 @@ public class TeamDb {
                 " LD2, RD2," +
                 " LD3, RD3," +
                 " G1, G2) VALUES " +
-                "(?, NULL, NULL, NULL, " +
+                "(?, 0,0,0,NULL, NULL, NULL, " +
                 "NULL, NULL, NULL," +
                 "NULL, NULL, NULL," +
                 "NULL, NULL, NULL," +
@@ -156,5 +156,50 @@ public class TeamDb {
             lines.add(pArr);
         }
         return lines;
+    }
+    public static void updateWins(int teamid){
+        String sql = "UPDATE Team SET Wins= Wins+1 WHERE teamid = ?";
+
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try (Connection conn = DriverManager.getConnection(url)){
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+
+            // set the corresponding param
+            pstmt.setInt(1, teamid);
+            // update
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    public static void updateLoses(int teamid){
+        String sql = "UPDATE Team SET Loses= Loses+1 WHERE teamid = ?";
+
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try (Connection conn = DriverManager.getConnection(url)){
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+
+            // set the corresponding param
+            pstmt.setInt(1, teamid);
+            // update
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    public static void updateTies(int teamid){
+        String sql = "UPDATE Team SET Ties= Ties+1 WHERE teamid = ?";
+
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try (Connection conn = DriverManager.getConnection(url)){
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+
+            // set the corresponding param
+            pstmt.setInt(1, teamid);
+            // update
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

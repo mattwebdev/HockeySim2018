@@ -37,6 +37,7 @@ public class Game {
                 gamesim.getGameStats().getHomeShotsT1(),
                 gamesim.getGameStats().getAwayShotsT2());
         gamesim.getGameStats().updateDatabaseWithPlayerStats();
+        gamesim.getGameStats().updateTeamRecord();
     }
     /*public static void main(String[] args){
 
