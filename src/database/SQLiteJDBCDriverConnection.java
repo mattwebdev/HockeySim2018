@@ -79,7 +79,7 @@ public class SQLiteJDBCDriverConnection {
                 " INTEGER, RW2 INTEGER,LW3 INTEGER,C3 INTEGER, RW3 INTEGER, LW4 INTEGER," +
                 " C4 INTEGER, RW4 , LD1 INTEGER, RD1 INTEGER, LD2 INTEGER, RD2 INTEGER," +
                 " LD3 INTEGER, RD3 INTEGER, G1 INTEGER, G2 INTEGER)";
-        String sql4 = "CREATE TABLE PlayerStats( PlayerID INTEGER PRIMARY KEY , Goals INTEGER," +
+        String sql4 = "CREATE TABLE PlayerStats( PlayerID INTEGER PRIMARY KEY , GamesPlayed INTEGER, Goals INTEGER," +
                 " Assists INTEGER, Shots INTEGER, Points INTEGER)";
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {

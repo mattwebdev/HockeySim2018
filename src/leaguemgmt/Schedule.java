@@ -4,13 +4,13 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class Schedule {
-    private static int SCHEDULE_DAYS = 7 * 14;
+    private static int SCHEDULE_DAYS = 100;
     /*
         Total num of games = 5 * 4 + 2 * 10
      */
     private static int NUM_INTERDIV_GAMES = 5;
     private static int NUM_LEAGUE_GAMES = 2;
-    private static int SCHEDULE_UPPER_BOUND = 8;
+    private static int SCHEDULE_UPPER_BOUND = 4;
     private int numTeams;
     ArrayList<ArrayList<Integer>> teamsToPlay;
     ArrayList<ArrayList<ArrayList<Integer>>> totalSchedule;
@@ -82,7 +82,7 @@ public class Schedule {
         Random rand = new Random();
         Set completedTeams = new HashSet<Integer>();
         for(int i=0; i< SCHEDULE_DAYS; ++i){
-            int gamesScheduled = rand.nextInt(SCHEDULE_UPPER_BOUND)+1;
+            int gamesScheduled = (int)(rand.nextGaussian() * .5 + SCHEDULE_UPPER_BOUND); //(SCHEDULE_UPPER_BOUND)+1;
             ArrayList<ArrayList<Integer>> daySchedule = new ArrayList<>();
             for(int k=0; k<gamesScheduled; ++k) { //for each game in the day
                 ArrayList<Integer> matchup = new ArrayList<>();
@@ -90,7 +90,6 @@ public class Schedule {
                 while (teamsToPlay.get(randomTeam-1).size() == 0) { //if team has no more games find new team
                     completedTeams.add(randomTeam);
                     if(completedTeams.size() == numTeams){
-                        System.out.println("DONE");
                         return;
                     }
                     randomTeam = rand.nextInt(15) + 1;
@@ -105,7 +104,6 @@ public class Schedule {
                 daySchedule.add(matchup);
             }
             totalSchedule.add(daySchedule);
-            System.out.println(i);
         }
         System.out.println("Schedule size" + totalSchedule.size());
     }

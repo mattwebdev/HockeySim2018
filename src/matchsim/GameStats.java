@@ -1,5 +1,6 @@
 package matchsim;
 
+import database.PlayerDb;
 import database.PlayerStatsDb;
 
 import java.util.ArrayList;
@@ -48,6 +49,12 @@ public class GameStats {
             numShots.put(pid, numShots.get(pid)+1);
     }
     public void updateDatabaseWithPlayerStats(){
+        ArrayList<Integer> hPlayers = PlayerDb.getTeamPlayers(T1ID);
+        ArrayList<Integer> aPlayers = PlayerDb.getTeamPlayers(T2ID);
+        for(int pid: hPlayers)
+            PlayerStatsDb.updateGames(pid);
+        for(int pid: aPlayers)
+            PlayerStatsDb.updateGames(pid);
         for(int pid: goalScorersPIDS)
             PlayerStatsDb.updateGoals(pid, 1);
         for(int pid: primaryAssistersPIDS)

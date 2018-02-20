@@ -9,8 +9,8 @@ public class PlayerStatsDb {
     public static void insertPlayerStats(int numPlayers){
         for(int count = 1 ; count <= numPlayers; ++count) {
             String sql = "INSERT INTO PlayerStats" +
-                    "(PlayerID, Goals,Assists,Shots,Points) " +
-                    "VALUES(?,0,0,0,0)";
+                    "(PlayerID, GamesPlayed, Goals,Assists,Shots,Points) " +
+                    "VALUES(?,0,0,0,0,0)";
             String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
             try (Connection conn = DriverManager.getConnection(url)) {
                 PreparedStatement pstmt = conn.prepareStatement(sql);
@@ -20,6 +20,21 @@ public class PlayerStatsDb {
             } catch (SQLException e) {
                 System.out.println(e.getMessage());
             }
+        }
+    }
+    public static void updateGames(int pid){
+        String sql = "UPDATE PlayerStats SET GamesPlayed = GamesPlayed+1"
+                + " WHERE PlayerID = ?";
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try (Connection conn = DriverManager.getConnection(url)){
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+
+            // set the corresponding param
+            pstmt.setInt(1, pid);
+            // update
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
         }
     }
     public static void updateGoals(int pid, int goals){
