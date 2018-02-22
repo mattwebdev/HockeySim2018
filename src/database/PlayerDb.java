@@ -13,6 +13,7 @@ public class PlayerDb {
 
    public Player(String name, String position, int faceoff, int teamID, int offensiveSkills, int defensiveSkills, int goalieskills){
      */
+
     public static void insertPlayer(Player p){
         String sql = "INSERT INTO Player" +
                 "(Name, Position,TeamID,Faceoff,OffensiveSkills,DefensiveSkills, GoalieSkills) " +

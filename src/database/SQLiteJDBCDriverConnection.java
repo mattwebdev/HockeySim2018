@@ -55,7 +55,7 @@ public class SQLiteJDBCDriverConnection {
         }
     }
     private static void doInitalRoutines(int teams){
-        PlayerGen.populatePlayerDB(400);
+        PlayerGen.populatePlayerDB(450);
         for(int i=1; i<=teams; ++i){
             TeamGen.buildTeam(i);
             TeamDb.assignLinesDefault(i);
@@ -64,7 +64,7 @@ public class SQLiteJDBCDriverConnection {
         //TeamGen.buildTeam(2);
         //TeamDb.assignLinesDefault(1);
         //TeamDb.assignLinesDefault(2);
-        PlayerStatsDb.insertPlayerStats(400);
+        PlayerStatsDb.insertPlayerStats(450);
     }
     private static void createTables(){
         String url = "jdbc:sqlite:C://sqlite/dbs/hockeyDb.db";

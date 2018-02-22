@@ -1,110 +1,130 @@
 package leaguemgmt;
 
+import com.sun.jdi.IntegerValue;
+
 import java.lang.reflect.Array;
 import java.util.*;
+import leaguemgmt.Matchup;
 
 public class Schedule {
-    private static int SCHEDULE_DAYS = 100;
-    /*
-        Total num of games = 5 * 4 + 2 * 10
-     */
-    private static int NUM_INTERDIV_GAMES = 5;
-    private static int NUM_LEAGUE_GAMES = 2;
-    private static int SCHEDULE_UPPER_BOUND = 4;
     private int numTeams;
-    ArrayList<ArrayList<Integer>> teamsToPlay;
-    ArrayList<ArrayList<ArrayList<Integer>>> totalSchedule;
+    private ArrayList<Matchup> gamesToPlay;
+    private ArrayList<ArrayList<Matchup>> schedule;
+    private ArrayList<ArrayList<Integer>> division;
+    private static final int NUM_DIVISIONS = 4;
+    private static final int NUM_WEEKLY_GAMES = 3;
+    private static final int TOTAL_NUM_TEAM_GAMES = 40;
     public Schedule(int teams){
         numTeams = teams;
-        totalSchedule = new ArrayList<>();
-        teamsToPlay = new ArrayList<ArrayList<Integer>>();
-        for(int i=0; i<teams; ++i)
-            teamsToPlay.add(new ArrayList<Integer>());
-        for(int i=0; i<teams; ++i)
-            teamsToPlay.set(i, teamsToPlay(i+1));
-        generateNewSchedule();
+        division = new ArrayList<>();
+        gamesToPlay = new ArrayList<>();
+        schedule = new ArrayList<>();
+        //createDivisons();
+        createGamesToPlay();
+        createSchedule();
     }
-    public ArrayList<Integer> getMatchupsLeft(int teamid){
-        return teamsToPlay.get(teamid);
-    }
-    public int getTotalDays(){
-        return totalSchedule.size();
-    }
-    public ArrayList<ArrayList<Integer>> getMatchupsOnDay(int day){
-        return totalSchedule.get(day);
-    }
-    public ArrayList<Integer> teamsToPlay(int teamid){
-        ArrayList<Integer> teamsToPlay = new ArrayList<>();
-        int division = (int) (teamid-1) / 5;
-        Integer[] div1 = {1,2,3,4,5};
-        Integer[] div2 = {6,7,8,9,10};
-        Integer[] div3 = {11,12,13,14,15};
-        for(int i=0; i<5;++i){
-            switch(division){
-                case 0:
-                    Collections.addAll(teamsToPlay, div1);
-                    teamsToPlay.remove(Integer.valueOf(teamid));
-                    break;
-                case 1:
-                    Collections.addAll(teamsToPlay, div2);
-                    teamsToPlay.remove(Integer.valueOf(teamid));
-                    break;
-                case 2:
-                    Collections.addAll(teamsToPlay, div3);
-                    teamsToPlay.remove(Integer.valueOf(teamid));
-                    break;
-            }
-        }
-        for(int i=0; i<2; ++i){
-            switch(division){
-                case 0:
-                    Collections.addAll(teamsToPlay, div2);
-                    Collections.addAll(teamsToPlay, div3);
-                    break;
-                case 1:
-                    Collections.addAll(teamsToPlay, div1);
-                    Collections.addAll(teamsToPlay, div3);
-                    break;
-                case 2:
-                    Collections.addAll(teamsToPlay, div1);
-                    Collections.addAll(teamsToPlay, div2);
-                    break;
-            }
-        }
-        return teamsToPlay;
-    }
-    private void generateNewSchedule(){
-        /*
-            Constraints:
-                No three days in a row
-         */
-        int kcount =0;
-        Random rand = new Random();
-        Set completedTeams = new HashSet<Integer>();
-        for(int i=0; i< SCHEDULE_DAYS; ++i){
-            int gamesScheduled = (int)(rand.nextGaussian() * .5 + SCHEDULE_UPPER_BOUND); //(SCHEDULE_UPPER_BOUND)+1;
-            ArrayList<ArrayList<Integer>> daySchedule = new ArrayList<>();
-            for(int k=0; k<gamesScheduled; ++k) { //for each game in the day
-                ArrayList<Integer> matchup = new ArrayList<>();
-                int randomTeam = rand.nextInt(15) + 1;
-                while (teamsToPlay.get(randomTeam-1).size() == 0) { //if team has no more games find new team
-                    completedTeams.add(randomTeam);
-                    if(completedTeams.size() == numTeams){
-                        return;
-                    }
-                    randomTeam = rand.nextInt(15) + 1;
+    public ArrayList<Integer> getDatesTeamPlays(int teamid){
+        ArrayList<Integer> daysPlaying = new ArrayList<>();
+        for(int i=0; i< schedule.size();++i){
+            for(int k=0; k<schedule.get(i).size(); ++k) {
+                Matchup m = schedule.get(i).get(k);
+                if(m.getAwayTeamID() ==teamid || m.getHomeTeamID() == teamid){
+                    daysPlaying.add(i);
                 }
-                ArrayList<Integer> randomTeamScheduledGames = teamsToPlay.get(randomTeam-1);
-                //find random opponent from teamstoplay arraylist
-                int opponentTeam = randomTeamScheduledGames.get(rand.nextInt(randomTeamScheduledGames.size()));
-                matchup.add(randomTeam);
-                matchup.add(opponentTeam);
-                teamsToPlay.get(randomTeam-1).remove(Integer.valueOf(opponentTeam));
-                teamsToPlay.get(opponentTeam-1).remove(Integer.valueOf(randomTeam));
-                daySchedule.add(matchup);
             }
-            totalSchedule.add(daySchedule);
         }
-        System.out.println("Schedule size" + totalSchedule.size());
+        return daysPlaying;
+    }
+    public ArrayList<ArrayList<Matchup>> getSchedule(){
+        return schedule;
+    }
+    /*
+        Creates a schedule with no two games in a day
+     */
+    public void createSchedule(){
+        Random rand = new Random();
+        while(gamesToPlay.size()!= 0){
+            ArrayList<Matchup> daysGames = new ArrayList<>();
+            int matchupsToday = (int)rand.nextGaussian() * 2 + 3;
+            //todaysTeams tracks teams that have already played today
+            ArrayList<Integer> todaysTeams = new ArrayList<>();
+            for(int i=0; i< matchupsToday; ++i){
+                int index = 0;
+                if(gamesToPlay.size() > 0) {
+                    //Check if team has already played today, if so skip
+                    while(todaysTeams.contains(gamesToPlay.get(index).getHomeTeamID()) ||
+                            (todaysTeams.contains(gamesToPlay.get(index).getAwayTeamID()))){
+                        index++;
+                    }
+                    daysGames.add(gamesToPlay.get(index));
+                    todaysTeams.add(gamesToPlay.get(index).getHomeTeamID());
+                    todaysTeams.add(gamesToPlay.get(index).getAwayTeamID());
+                    gamesToPlay.remove(index);
+                }
+            }
+            schedule.add(daysGames);
+        }
+    }
+    public ArrayList<Matchup> getGamesToPlay(){
+        return gamesToPlay;
+    }
+    private ArrayList<Integer> getTeamsInDivision(int teamid){
+        for(int i=0; i<division.size(); ++i){
+            if(division.get(i).contains(Integer.valueOf(teamid))){
+                return division.get(i);
+            }
+        }
+        return null;
+    }
+    /*
+        Creates all possible combination matchups
+     */
+    public void createGamesToPlay(){
+        /*
+            Creates the possible matches league-wide
+         */
+        LinkedList<Integer> roundRobin = new LinkedList<>();
+        for(int i=1; i<= numTeams*2; ++i) {
+            if(i > numTeams){
+                roundRobin.add(i-numTeams);
+            }
+            else {
+                roundRobin.add(i);
+            }
+        }
+        do{
+            for(int i=0; i<roundRobin.size()/2;++i){
+                int home =roundRobin.get(i);
+                int away = roundRobin.get(roundRobin.size()-1-i);
+                Matchup m = new Matchup(home,away);
+                if(home != away)
+                    gamesToPlay.add(m);
+
+            }
+            roundRobin.add(0,roundRobin.get(roundRobin.size()-1));
+            roundRobin.remove(roundRobin.size()-1);
+        }while(roundRobin.get(0) != 1);
+        /*
+            Creates division-wide matchups
+         */
+    }
+    /*
+        Attempt to create 4 divisions. Allows for unequal divisions
+     */
+    public void createDivisons(){
+        int leftOverTeams = numTeams%NUM_DIVISIONS;
+        for(int i=0; i<NUM_DIVISIONS; ++i){
+            ArrayList<Integer> teamsInDivision = new ArrayList<>();
+            for(int k=0; k< (int)numTeams/NUM_DIVISIONS; ++k){
+                teamsInDivision.add(k+1);
+            }
+            division.add(teamsInDivision);
+        }
+        //alllocate leftover teams. indexcount will never go over size of divisions
+        int indexcount = 0;
+        for(int i=0; i<leftOverTeams; ++i){
+            division.get(indexcount).add((((int)numTeams/NUM_DIVISIONS) * NUM_DIVISIONS) + i+1);
+            indexcount++;
+        }
     }
 }
