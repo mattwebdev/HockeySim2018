@@ -16,18 +16,19 @@ public class PlayerDb {
 
     public static void insertPlayer(Player p){
         String sql = "INSERT INTO Player" +
-                "(Name, Position,TeamID,Faceoff,OffensiveSkills,DefensiveSkills, GoalieSkills) " +
-                "VALUES(?,?,?,?,?,?,?)";
+                "(Name, Position,Age,TeamID,Faceoff,OffensiveSkills,DefensiveSkills, GoalieSkills) " +
+                "VALUES(?,?,?,?,?,?,?,?)";
         String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
         try(Connection conn = DriverManager.getConnection(url)){
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, p.getName());
             pstmt.setString(2, p.getPosition());
-            pstmt.setInt(3, p.getTeamID());
-            pstmt.setInt(4, p.getFaceoff());
-            pstmt.setInt(5, p.getOffensiveSkills());
-            pstmt.setInt(6, p.getDefensiveSkills());
-            pstmt.setInt(7, p.getGoalieSkills());
+            pstmt.setInt(3, p.getAge());
+            pstmt.setInt(4, p.getTeamID());
+            pstmt.setInt(5, p.getFaceoff());
+            pstmt.setInt(6, p.getOffensiveSkills());
+            pstmt.setInt(7, p.getDefensiveSkills());
+            pstmt.setInt(8, p.getGoalieSkills());
 
             pstmt.executeUpdate();
         } catch (SQLException e) {
@@ -35,7 +36,7 @@ public class PlayerDb {
         }
     }
     public static Player getPlayer(int pid){
-        String sql = "SELECT PlayerID, Name, Position, TeamID, Faceoff, OffensiveSkills, DefensiveSkills, GoalieSkills "
+        String sql = "SELECT PlayerID, Name, Position, Age, TeamID, Faceoff, OffensiveSkills, DefensiveSkills, GoalieSkills "
                 + "FROM Player WHERE PlayerID= ?";
         String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
         try(Connection conn = DriverManager.getConnection(url)) {
@@ -44,7 +45,7 @@ public class PlayerDb {
 
             ResultSet rs = pstmt.executeQuery();
             Player p = new Player(rs.getInt("PlayerID"),rs.getString("Name"),
-                    rs.getString("Position"), rs.getInt("Faceoff"),
+                    rs.getString("Position"), rs.getInt("Age"),rs.getInt("Faceoff"),
                     rs.getInt("TeamID"), rs.getInt("OffensiveSkills"),
                     rs.getInt("DefensiveSkills"), rs.getInt("GoalieSkills"));
             return p;
@@ -53,6 +54,24 @@ public class PlayerDb {
             System.out.println(e.getMessage());
         }
         return null;
+    }
+    public static void updatePlayerStats(int pid, int offensiveSkills, int defensiveSkills){
+        String sql = "UPDATE Player SET OffensiveSkills = ?, DefensiveSkills = ?"
+                + "WHERE PlayerID = ?";
+
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try (Connection conn = DriverManager.getConnection(url)){
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+
+            // set the corresponding param
+            pstmt.setInt(1, offensiveSkills);
+            pstmt.setInt(2, defensiveSkills);
+            pstmt.setInt(3, pid);
+            // update
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
     public static void updatePlayerTeam(int playerID, int newTeamID){
         String sql = "UPDATE Player SET TeamID = ?"

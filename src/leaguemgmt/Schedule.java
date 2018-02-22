@@ -54,7 +54,8 @@ public class Schedule {
                     //Check if team has already played today, if so skip
                     while(todaysTeams.contains(gamesToPlay.get(index).getHomeTeamID()) ||
                             (todaysTeams.contains(gamesToPlay.get(index).getAwayTeamID()))){
-                        index++;
+                        if (index < gamesToPlay.size()-1)
+                            index++;
                     }
                     daysGames.add(gamesToPlay.get(index));
                     todaysTeams.add(gamesToPlay.get(index).getHomeTeamID());
