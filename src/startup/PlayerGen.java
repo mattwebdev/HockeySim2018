@@ -1,5 +1,6 @@
 package startup;
 import database.PlayerDb;
+import development.Development;
 import player.Player;
 
 import javax.naming.Name;
@@ -7,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class PlayerGen {
+    private static final int HIGHEST_POTENTIAL = 200;
     public static void populatePlayerDB(int numPlayers){
         if(numPlayers == 0){
             return;
@@ -20,6 +22,7 @@ public class PlayerGen {
         int defensiveSkills;
         int goalieSkills;
         int age;
+        int potential = 0;
 
         nationality = generateNationality();
         name = generateName(nationality);
@@ -28,13 +31,22 @@ public class PlayerGen {
         faceoff = generateFaceoffSkills(position, age);
         offensiveSkills = generateOffensiveSkills(position, age);
         defensiveSkills = generateDefensiveSkills(position, age);
+        potential = generatePotential(offensiveSkills, defensiveSkills, age);
         goalieSkills =generateGoalieSkills(position);
         /*System.out.println(name + "\n" + nationality + "\n" + position + "\nfaceoffs:" +
                             faceoff + "\noffensive:"+ offensiveSkills + "\ndefensive:"+ defensiveSkills + "\ngoalie:"+ goalieSkills );
         */
-        Player p = new Player(name, position, age, faceoff, 0, offensiveSkills, defensiveSkills, goalieSkills );
+        Player p = new Player(potential, name, position, age, faceoff, 0, offensiveSkills, defensiveSkills, goalieSkills );
         PlayerDb.insertPlayer(p);
         populatePlayerDB(numPlayers-1);
+    }
+    private static int generatePotential(int offensiveSkills, int defensiveSkills, int age){
+        Random rand = new Random();
+        int currPotential = offensiveSkills + defensiveSkills;
+        int futurePotential = rand.nextInt(HIGHEST_POTENTIAL- currPotential) + currPotential;
+
+
+        return (int)(futurePotential * Development.getPercentPotentialAtAge(age));
     }
     private static int generateAge(){
         Random rand = new Random();
@@ -43,14 +55,6 @@ public class PlayerGen {
             age = 18;
         }
         return age;
-    }
-    private static double getPercentSkillAtAge(int age){
-        //This is the quadratic function to model skill decline over age
-        double A = -.0354;
-        double B = .07309;
-        double C = -.001438;
-        double totalPercentSkill = A + B*age + C*age*age;
-        return totalPercentSkill;
     }
     private static int generateGoalieSkills(String position){
         Random rand = new Random();
@@ -78,7 +82,7 @@ public class PlayerGen {
         else{
             faceoffSkills = (int)(rand.nextGaussian() * 10 + 40);
         }
-        return (int)(faceoffSkills * getPercentSkillAtAge(age)) ;
+        return (int)(faceoffSkills * Development.getPercentSkillAtAge(age)) ;
     }
     private static int generateOffensiveSkills(String position, int age){
         Random rand = new Random();
@@ -93,7 +97,7 @@ public class PlayerGen {
             offSkills = (int) (rand.nextGaussian() * 10 +40);
         }
         int dist = (int)rand.nextGaussian()*5 + 27;
-        return (int)(offSkills * getPercentSkillAtAge(age)) ;
+        return (int)(offSkills * Development.getPercentSkillAtAge(age)) ;
     }
     private static int generateDefensiveSkills(String position, int age){
         Random rand = new Random();
@@ -108,7 +112,7 @@ public class PlayerGen {
             defSkills =  (int) (rand.nextGaussian() * 10+ 60);
         }
 
-        return (int)(defSkills * getPercentSkillAtAge(age)) ;
+        return (int)(defSkills * Development.getPercentSkillAtAge(age)) ;
     }
     private static String generatePosition(){
         Random rand = new Random();

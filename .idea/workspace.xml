@@ -12,125 +12,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="League.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leaguemgmt/League.java">
+      <file leaf-file-name="NameGrabber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/startup/NameGrabber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/Team.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="325">
+              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamDb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/TeamDb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <element signature="method#initializeLines#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#assignLinesDefault#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#getPlayerAtPosition#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#updateTeamAssignment#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#getline#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#getLines#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#updateWins#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#updateLoses#0;class#TeamDb#0" expanded="false" />
-                <element signature="method#updateTies#0;class#TeamDb#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLiteJDBCDriverConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/SQLiteJDBCDriverConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Schedule.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leaguemgmt/Schedule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
-                <element signature="e#2640#2641#0" expanded="true" />
-                <element signature="e#2674#2675#0" expanded="true" />
-                <element signature="method#getTeamsInDivision#0;class#Schedule#0" expanded="false" />
-                <element signature="method#createGamesToPlay#0;class#Schedule#0" expanded="false" />
-                <element signature="method#createDivisons#0;class#Schedule#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/player/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="60" column="36" lean-forward="false" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerStatsDb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/PlayerStatsDb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#updateGoals#0;class#PlayerStatsDb#0" expanded="false" />
-                <element signature="method#updateAssists#0;class#PlayerStatsDb#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerDb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/PlayerDb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <element signature="method#insertPlayer#0;class#PlayerDb#0" expanded="false" />
-                <element signature="method#getPlayer#0;class#PlayerDb#0" expanded="false" />
-                <element signature="method#getUnassignedPlayers#0;class#PlayerDb#0" expanded="false" />
-                <element signature="method#getTeamPlayers#0;class#PlayerDb#0" expanded="false" />
-                <element signature="e#4708#4717#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerGen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlayerGen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/startup/PlayerGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="48" column="82" lean-forward="true" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
               <folding>
-                <element signature="method#populatePlayerDB#0;class#PlayerGen#0" expanded="false" />
                 <element signature="method#generateAge#0;class#PlayerGen#0" expanded="false" />
+                <element signature="method#generateGoalieSkills#0;class#PlayerGen#0" expanded="false" />
                 <element signature="method#generatePosition#0;class#PlayerGen#0" expanded="false" />
                 <element signature="method#generateNationality#0;class#PlayerGen#0" expanded="false" />
                 <element signature="method#generateName#0;class#PlayerGen#0" expanded="false" />
@@ -142,9 +41,47 @@
       <file leaf-file-name="Development.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/development/Development.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/player/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLiteJDBCDriverConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/SQLiteJDBCDriverConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1750">
+              <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerDb.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/PlayerDb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+              <folding>
+                <element signature="method#insertPlayer#0;class#PlayerDb#0" expanded="false" />
+                <element signature="method#getPlayer#0;class#PlayerDb#0" expanded="false" />
+                <element signature="method#updatePlayerStats#0;class#PlayerDb#0" expanded="false" />
+                <element signature="method#updatePlayerTeam#0;class#PlayerDb#0" expanded="false" />
+                <element signature="method#getUnassignedPlayers#0;class#PlayerDb#0" expanded="false" />
+                <element signature="method#getTeamPlayers#0;class#PlayerDb#0" expanded="false" />
+                <element signature="e#4800#4809#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,20 +119,23 @@
         <option value="$PROJECT_DIR$/src/matchsim/Game.java" />
         <option value="$PROJECT_DIR$/src/database/TeamDb.java" />
         <option value="$PROJECT_DIR$/src/leaguemgmt/Matchup.java" />
+        <option value="$PROJECT_DIR$/src/leaguemgmt/League.java" />
+        <option value="$PROJECT_DIR$/src/leaguemgmt/Schedule.java" />
+        <option value="$PROJECT_DIR$/namegen/russian_l.txt" />
+        <option value="$PROJECT_DIR$/src/startup/NameGrabber.java" />
+        <option value="$PROJECT_DIR$/namegen/russian_f.txt" />
         <option value="$PROJECT_DIR$/src/database/SQLiteJDBCDriverConnection.java" />
         <option value="$PROJECT_DIR$/src/player/Player.java" />
-        <option value="$PROJECT_DIR$/src/leaguemgmt/League.java" />
         <option value="$PROJECT_DIR$/src/database/PlayerDb.java" />
         <option value="$PROJECT_DIR$/src/development/Development.java" />
         <option value="$PROJECT_DIR$/src/startup/PlayerGen.java" />
-        <option value="$PROJECT_DIR$/src/leaguemgmt/Schedule.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="482" />
-    <option name="y" value="131" />
-    <option name="width" value="1227" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="123" />
+    <option name="y" value="410" />
+    <option name="width" value="1640" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectView">
@@ -213,13 +153,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HockeySim2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="HockeySim2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HockeySim2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HockeySim2018" type="462c0819:PsiDirectoryNode" />
+              <item name="namegen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HockeySim2018" type="b2602c69:ProjectViewProjectNode" />
@@ -272,9 +220,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,7 +389,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -508,7 +453,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -522,119 +467,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/matchsim/GameStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="56" column="67" lean-forward="false" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1418#1419#0" expanded="false" />
-            <element signature="e#1458#1459#0" expanded="false" />
-            <element signature="e#1503#1504#0" expanded="false" />
-            <element signature="e#1548#1549#0" expanded="false" />
-            <element signature="e#1595#1596#0" expanded="false" />
-            <element signature="e#1642#1643#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matchsim/Possession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4650">
-          <caret line="186" column="31" lean-forward="false" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
-          <folding>
-            <element signature="e#1668#1669#0" expanded="false" />
-            <element signature="e#1712#1713#0" expanded="false" />
-            <element signature="method#isRetainSuccess#0;class#Possession#0" expanded="false" />
-            <element signature="method#isPassSuccess#0;class#Possession#0" expanded="false" />
-            <element signature="method#isShotSuccess#0;class#Possession#0" expanded="false" />
-            <element signature="method#isClearSuccess#0;class#Possession#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leaguemgmt/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="method#getTeamsInDivision#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createGamesToPlay#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createDivisons#0;class#Schedule#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/ContractDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matchsim/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/SQLiteJDBCDriverConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/PlayerStatsDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#updateGoals#0;class#PlayerStatsDb#0" expanded="false" />
-            <element signature="method#updateAssists#0;class#PlayerStatsDb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/PlayerDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="method#insertPlayer#0;class#PlayerDb#0" expanded="false" />
-            <element signature="method#getPlayer#0;class#PlayerDb#0" expanded="false" />
-            <element signature="method#updatePlayerTeam#0;class#PlayerDb#0" expanded="false" />
-            <element signature="method#getUnassignedPlayers#0;class#PlayerDb#0" expanded="false" />
-            <element signature="method#getTeamPlayers#0;class#PlayerDb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leaguemgmt/League.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/matchsim/FSM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,11 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#updateGoals#0;class#PlayerStatsDb#0" expanded="false" />
-            <element signature="method#updateAssists#0;class#PlayerStatsDb#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,9 +552,11 @@
           <folding>
             <element signature="method#insertPlayer#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getPlayer#0;class#PlayerDb#0" expanded="false" />
+            <element signature="method#updatePlayerStats#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#updatePlayerTeam#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getUnassignedPlayers#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getTeamPlayers#0;class#PlayerDb#0" expanded="false" />
+            <element signature="e#4800#4809#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,16 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="method#getTeamsInDivision#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createGamesToPlay#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createDivisons#0;class#Schedule#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,11 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#updateGoals#0;class#PlayerStatsDb#0" expanded="false" />
-            <element signature="method#updateAssists#0;class#PlayerStatsDb#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,9 +653,11 @@
           <folding>
             <element signature="method#insertPlayer#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getPlayer#0;class#PlayerDb#0" expanded="false" />
+            <element signature="method#updatePlayerStats#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#updatePlayerTeam#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getUnassignedPlayers#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getTeamPlayers#0;class#PlayerDb#0" expanded="false" />
+            <element signature="e#4800#4809#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -849,16 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
           <caret line="59" column="39" lean-forward="true" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="method#getTeamsInDivision#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createGamesToPlay#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createDivisons#0;class#Schedule#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="158" column="70" lean-forward="true" selection-start-line="158" selection-start-column="70" selection-end-line="158" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,14 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1788">
           <caret line="190" column="12" lean-forward="false" selection-start-line="190" selection-start-column="12" selection-end-line="190" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,19 +785,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/PlayerStatsDb.java">
+    <entry file="file://$PROJECT_DIR$/src/leaguemgmt/League.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="277">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#updateGoals#0;class#PlayerStatsDb#0" expanded="false" />
-            <element signature="method#updateAssists#0;class#PlayerStatsDb#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaguemgmt/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1024,81 +823,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/PlayerStatsDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/american_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="207" column="6" lean-forward="true" selection-start-line="207" selection-start-column="6" selection-end-line="207" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/czech_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/finnish_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/russian_l.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/russian_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/swedish_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1237">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/slovak_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegen/swiss_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/startup/NameGrabber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="60" column="36" lean-forward="false" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+        <state relative-caret-position="175">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/SQLiteJDBCDriverConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
+        <state relative-caret-position="1750">
+          <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leaguemgmt/League.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/PlayerDb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="method#insertPlayer#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getPlayer#0;class#PlayerDb#0" expanded="false" />
+            <element signature="method#updatePlayerStats#0;class#PlayerDb#0" expanded="false" />
+            <element signature="method#updatePlayerTeam#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getUnassignedPlayers#0;class#PlayerDb#0" expanded="false" />
             <element signature="method#getTeamPlayers#0;class#PlayerDb#0" expanded="false" />
-            <element signature="e#4708#4717#0" expanded="true" />
+            <element signature="e#4800#4809#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/development/Development.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/startup/PlayerGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="48" column="82" lean-forward="true" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
           <folding>
-            <element signature="method#populatePlayerDB#0;class#PlayerGen#0" expanded="false" />
             <element signature="method#generateAge#0;class#PlayerGen#0" expanded="false" />
+            <element signature="method#generateGoalieSkills#0;class#PlayerGen#0" expanded="false" />
             <element signature="method#generatePosition#0;class#PlayerGen#0" expanded="false" />
             <element signature="method#generateNationality#0;class#PlayerGen#0" expanded="false" />
             <element signature="method#generateName#0;class#PlayerGen#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leaguemgmt/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="method#getTeamsInDivision#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createGamesToPlay#0;class#Schedule#0" expanded="false" />
-            <element signature="method#createDivisons#0;class#Schedule#0" expanded="false" />
           </folding>
         </state>
       </provider>

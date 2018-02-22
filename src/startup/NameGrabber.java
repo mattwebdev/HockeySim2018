@@ -8,7 +8,7 @@ import java.util.Random;
 public class NameGrabber {
     private static int getNameBound(String nationality){
         switch(nationality){
-            case "russian": return 30;
+            case "russian": return 46;
             case "canadian": return 221;
             case "american": return 221;
             case "swiss": return 30;
