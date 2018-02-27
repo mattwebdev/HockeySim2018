@@ -1,7 +1,9 @@
 package leaguemgmt;
 
 import database.SQLiteJDBCDriverConnection;
+import database.ScheduleDb;
 import database.TeamDb;
+import development.Development;
 import matchsim.Game;
 import startup.TeamGen;
 import team.Team;
@@ -14,21 +16,16 @@ public class League {
     public static void main(String[] args) {
         SQLiteJDBCDriverConnection.createNewDatabase();
         Random rand = new Random();
-        ArrayList<ArrayList<Integer>> schedule;
 
-        ArrayList<ArrayList<Integer>> day;
-        int gamecount = 0;
-        int divgamecount = 0;
 
-        //System.out.println(s.teamsToPlay(4).size());
-        Schedule s = new Schedule(15);
-        ArrayList<ArrayList<Matchup>> sched = s.getSchedule();
-        for(int i=0; i<1; ++i){
+        for(int i=0; i<82; ++i)
+            Development.developPlayer(345);
+        /*for(int i=0; i<1; ++i){
             for(Matchup m: sched.get(i)){
                 Game g = new Game(m.getHomeTeamID(), m.getAwayTeamID());
                 g.sim();
             }
-        }
+        }*/
     }
 }
 

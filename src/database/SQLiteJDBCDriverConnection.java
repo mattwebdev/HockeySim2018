@@ -1,10 +1,13 @@
 package database;
 
+import leaguemgmt.Matchup;
+import leaguemgmt.Schedule;
 import startup.PlayerGen;
 import startup.TeamGen;
 
 import java.io.File;
 import java.sql.*;
+import java.util.ArrayList;
 
 public class SQLiteJDBCDriverConnection {
     /**
@@ -48,6 +51,7 @@ public class SQLiteJDBCDriverConnection {
                 System.out.println("A new database has been created.");
                 createTables();
                 doInitalRoutines(15);
+                Schedule s = new Schedule(15,2017);
             }
 
         } catch (SQLException e) {
@@ -72,8 +76,10 @@ public class SQLiteJDBCDriverConnection {
                 " GameLog TEXT, HomeGoals INTEGER, AwayGoals INTEGER, HomeShots" +
                 " INTEGER, AwayShots INTEGER )";
         String sql2 = "CREATE TABLE Player( PlayerID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT," +
-                " Potential INTEGER, Position TEXT, Age INTEGER, TeamID INTEGER, Faceoff INTEGER, OffensiveSkills" +
-                " INTEGER, DefensiveSkills INTEGER, GoalieSkills INTEGER )";
+                " Potential INTEGER, Position TEXT, Age INTEGER, TeamID INTEGER, Faceoff INTEGER, " +
+                "OffensiveSkills INTEGER CHECK(OffensiveSkills >= 0 AND OffensiveSkills <= 100), " +
+                "DefensiveSkills INTEGER  CHECK(DefensiveSkills >=0 AND DefensiveSkills <= 100)," +
+                " GoalieSkills INTEGER  CHECK(GoalieSkills >= 0 AND GoalieSkills <= 100) )";
         String sql3 = "CREATE TABLE Team( TeamID INTEGER PRIMARY KEY, Wins INTEGER, Loses INTEGER, Ties INTEGER," +
                 " LW1 INTEGER," +
                 " C1 INTEGER, RW1 INTEGER, LW2 INTEGER, C2" +
@@ -82,6 +88,7 @@ public class SQLiteJDBCDriverConnection {
                 " LD3 INTEGER, RD3 INTEGER, G1 INTEGER, G2 INTEGER)";
         String sql4 = "CREATE TABLE PlayerStats( PlayerID INTEGER PRIMARY KEY , GamesPlayed INTEGER, Goals INTEGER," +
                 " Assists INTEGER, Shots INTEGER, Points INTEGER)";
+        String sql5 = "CREATE TABLE Schedule (Year INTEGER, HomeID INTEGER, AwayID INTEGER, Day INTEGER)";
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {
             // create a new table
@@ -89,6 +96,7 @@ public class SQLiteJDBCDriverConnection {
             stmt.execute(sql2);
             stmt.execute(sql3);
             stmt.execute(sql4);
+            stmt.execute(sql5);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

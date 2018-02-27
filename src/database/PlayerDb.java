@@ -57,7 +57,7 @@ public class PlayerDb {
         return null;
     }
     public static void updatePlayerStats(int pid, int offensiveSkills, int defensiveSkills){
-        String sql = "UPDATE Player SET OffensiveSkills = ?, DefensiveSkills = ?"
+        String sql = "UPDATE OR IGNORE Player SET OffensiveSkills = OffensiveSkills + ?, DefensiveSkills = DefensiveSkills + ?"
                 + "WHERE PlayerID = ?";
 
         String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";

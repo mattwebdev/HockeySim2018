@@ -3,10 +3,17 @@ package leaguemgmt;
 import com.sun.jdi.IntegerValue;
 
 import java.lang.reflect.Array;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.*;
+
+import database.ScheduleDb;
 import leaguemgmt.Matchup;
 
 public class Schedule {
+    private int year;
     private int numTeams;
     private ArrayList<Matchup> gamesToPlay;
     private ArrayList<ArrayList<Matchup>> schedule;
@@ -14,7 +21,8 @@ public class Schedule {
     private static final int NUM_DIVISIONS = 4;
     private static final int NUM_WEEKLY_GAMES = 3;
     private static final int TOTAL_NUM_TEAM_GAMES = 40;
-    public Schedule(int teams){
+    public Schedule(int teams, int year){
+        this.year = year;
         numTeams = teams;
         division = new ArrayList<>();
         gamesToPlay = new ArrayList<>();
@@ -22,6 +30,7 @@ public class Schedule {
         //createDivisons();
         createGamesToPlay();
         createSchedule();
+        ScheduleDb.addSchedToDb(schedule, year);
     }
     public ArrayList<Integer> getDatesTeamPlays(int teamid){
         ArrayList<Integer> daysPlaying = new ArrayList<>();
@@ -54,8 +63,8 @@ public class Schedule {
                     //Check if team has already played today, if so skip
                     while(todaysTeams.contains(gamesToPlay.get(index).getHomeTeamID()) ||
                             (todaysTeams.contains(gamesToPlay.get(index).getAwayTeamID()))){
-                        if (index < gamesToPlay.size()-1)
-                            index++;
+                        System.out.println("wut" + index + " " + gamesToPlay.size());
+                        index++;
                     }
                     daysGames.add(gamesToPlay.get(index));
                     todaysTeams.add(gamesToPlay.get(index).getHomeTeamID());

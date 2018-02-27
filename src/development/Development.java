@@ -1,5 +1,10 @@
 package development;
 
+import database.PlayerDb;
+import player.Player;
+
+import java.util.Random;
+
 public class Development {
     /*
         This is a quadratic function for modeling skill decay by age
@@ -21,6 +26,28 @@ public class Development {
         return totalPercentSkill;
     }
     public static void developPlayer(int pid){
+        Player p = PlayerDb.getPlayer(pid);
+        Random rand = new Random();
+        int pointsLeft = p.getPotential() - (p.getOffensiveSkills()-p.getDefensiveSkills());
+        int pAge = p.getAge();
+        int increase =((pointsLeft/(28-pAge)));
+        int percIncrease = ((100* increase/pointsLeft));;
+        int prob = rand.nextInt(100);
+        if(prob < Math.abs(percIncrease)){
+            int whichStat = rand.nextInt(2);
+            if(whichStat == 0){
+                if(percIncrease < 0)
+                    PlayerDb.updatePlayerStats(pid, -1, 0);
+                else
+                    PlayerDb.updatePlayerStats(pid, 1, 0);
 
+            }
+            else{
+                if(percIncrease < 0)
+                    PlayerDb.updatePlayerStats(pid, 0, -1);
+                else
+                    PlayerDb.updatePlayerStats(pid, 0, 1);
+            }
+        }
     }
 }
