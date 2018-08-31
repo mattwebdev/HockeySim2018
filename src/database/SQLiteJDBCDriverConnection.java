@@ -50,7 +50,7 @@ public class SQLiteJDBCDriverConnection {
                 System.out.println("The driver name is " + meta.getDriverName());
                 System.out.println("A new database has been created.");
                 createTables();
-                doInitalRoutines(15);
+                doInitialRoutines(15);
                 Schedule s = new Schedule(15,2017);
             }
 
@@ -58,7 +58,7 @@ public class SQLiteJDBCDriverConnection {
             System.out.println(e.getMessage());
         }
     }
-    private static void doInitalRoutines(int teams){
+    private static void doInitialRoutines(int teams){
         PlayerGen.populatePlayerDB(450);
         for(int i=1; i<=teams; ++i){
             TeamGen.buildTeam(i);

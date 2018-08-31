@@ -54,4 +54,42 @@ public class ScheduleDb {
         }
         return daysGames;
     }
+    public static ArrayList<Integer> getHomeGames(int teamID){
+        ArrayList<Integer> games = new ArrayList<>();
+        String sql = "SELECT Day "
+                + "FROM Schedule WHERE HomeID = ?";
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try(Connection conn = DriverManager.getConnection(url)) {
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+            pstmt.setInt(1,teamID);
+            ResultSet rs = pstmt.executeQuery();
+            while(rs.next()){
+               int day = rs.getInt("Day");
+               games.add(day);
+            }
+        }
+        catch(SQLException e){
+            System.out.println(e.getMessage());
+        }
+        return games;
+    }
+    public static ArrayList<Integer> getAwayGames(int teamID){
+        ArrayList<Integer> games = new ArrayList<>();
+        String sql = "SELECT Day "
+                + "FROM Schedule WHERE AwayID = ?";
+        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
+        try(Connection conn = DriverManager.getConnection(url)) {
+            PreparedStatement pstmt = conn.prepareStatement(sql);
+            pstmt.setInt(1,teamID);
+            ResultSet rs = pstmt.executeQuery();
+            while(rs.next()){
+                int day = rs.getInt("Day");
+                games.add(day);
+            }
+        }
+        catch(SQLException e){
+            System.out.println(e.getMessage());
+        }
+        return games;
+    }
 }
