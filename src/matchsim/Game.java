@@ -2,7 +2,7 @@ package matchsim;
 
 import database.GameDb;
 import database.PlayerDb;
-import database.SQLiteJDBCDriverConnection;
+import database.JDBCConnection;
 import database.TeamDb;
 import player.Player;
 import startup.PlayerGen;

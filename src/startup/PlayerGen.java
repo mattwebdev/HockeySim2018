@@ -33,9 +33,7 @@ public class PlayerGen {
         defensiveSkills = generateDefensiveSkills(position, age);
         potential = generatePotential(offensiveSkills, defensiveSkills, age);
         goalieSkills =generateGoalieSkills(position);
-        /*System.out.println(name + "\n" + nationality + "\n" + position + "\nfaceoffs:" +
-                            faceoff + "\noffensive:"+ offensiveSkills + "\ndefensive:"+ defensiveSkills + "\ngoalie:"+ goalieSkills );
-        */
+
         Player p = new Player(potential, name, position, age, faceoff, 0, offensiveSkills, defensiveSkills, goalieSkills );
         PlayerDb.insertPlayer(p);
         populatePlayerDB(numPlayers-1);

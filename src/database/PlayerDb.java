@@ -1,7 +1,7 @@
 package database;
 
 import player.Player;
-
+import database.JDBCConnection;
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -18,8 +18,12 @@ public class PlayerDb {
         String sql = "INSERT INTO Player" +
                 "(Potential,Name, Position,Age,TeamID,Faceoff,OffensiveSkills,DefensiveSkills, GoalieSkills) " +
                 "VALUES(?,?,?,?,?,?,?,?,?)";
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try(Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setInt(1, p.getPotential());
             pstmt.setString(2, p.getName());
@@ -39,16 +43,24 @@ public class PlayerDb {
     public static Player getPlayer(int pid){
         String sql = "SELECT PlayerID, Potential, Name,Position, Age, TeamID, Faceoff, OffensiveSkills, DefensiveSkills, GoalieSkills "
                 + "FROM Player WHERE PlayerID= ?";
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try(Connection conn = DriverManager.getConnection(url)) {
+
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return null;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setInt(1,pid);
 
             ResultSet rs = pstmt.executeQuery();
-            Player p = new Player(rs.getInt("PlayerID"),rs.getInt("Potential"),rs.getString("Name"),
-                    rs.getString("Position"), rs.getInt("Age"),rs.getInt("Faceoff"),
-                    rs.getInt("TeamID"), rs.getInt("OffensiveSkills"),
-                    rs.getInt("DefensiveSkills"), rs.getInt("GoalieSkills"));
+            Player p = null;
+            if(rs.next()) {
+                p = new Player(rs.getInt("PlayerID"), rs.getInt("Potential"), rs.getString("Name"),
+                      rs.getString("Position"), rs.getInt("Age"), rs.getInt("Faceoff"),
+                      rs.getInt("TeamID"), rs.getInt("OffensiveSkills"),
+                      rs.getInt("DefensiveSkills"), rs.getInt("GoalieSkills"));
+            }
             return p;
         }
         catch(SQLException e){
@@ -60,8 +72,12 @@ public class PlayerDb {
         String sql = "UPDATE OR IGNORE Player SET OffensiveSkills = OffensiveSkills + ?, DefensiveSkills = DefensiveSkills + ?"
                 + "WHERE PlayerID = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -78,8 +94,12 @@ public class PlayerDb {
         String sql = "UPDATE Player SET TeamID = ?"
                 + "WHERE PlayerID = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -96,8 +116,12 @@ public class PlayerDb {
         String sql = "SELECT PlayerID "
                 + "FROM Player WHERE TeamID = 0";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try(Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return null;
+        }
+        try{
             PreparedStatement pstmt  = conn.prepareStatement(sql);
 
             // using prepared statements for query
@@ -119,8 +143,12 @@ public class PlayerDb {
         String sql = "SELECT PlayerID "
                 + "FROM Player WHERE TeamID = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try(Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return null;
+        }
+        try{
             PreparedStatement pstmt  = conn.prepareStatement(sql);
 
             // using prepared statements for query

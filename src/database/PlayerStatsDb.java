@@ -11,8 +11,13 @@ public class PlayerStatsDb {
             String sql = "INSERT INTO PlayerStats" +
                     "(PlayerID, GamesPlayed, Goals,Assists,Shots,Points) " +
                     "VALUES(?,0,0,0,0,0)";
-            String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-            try (Connection conn = DriverManager.getConnection(url)) {
+
+            Connection conn = JDBCConnection.getConnection();
+            if(conn == null){
+                System.out.println("Error connecting to db");
+                return;
+            }
+            try{
                 PreparedStatement pstmt = conn.prepareStatement(sql);
                 pstmt.setInt(1, count);
 
@@ -25,8 +30,13 @@ public class PlayerStatsDb {
     public static void updateGames(int pid){
         String sql = "UPDATE PlayerStats SET GamesPlayed = GamesPlayed+1"
                 + " WHERE PlayerID = ?";
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -42,8 +52,13 @@ public class PlayerStatsDb {
                 + " WHERE PlayerID = ?";
         String sql2 = "UPDATE PlayerStats SET Points = Points+?"
                 + " WHERE PlayerID = ?";
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
             PreparedStatement pstmt2 = conn.prepareStatement(sql2);
             // set the corresponding param
@@ -63,8 +78,13 @@ public class PlayerStatsDb {
                 + " WHERE PlayerID = ?";
         String sql2 = "UPDATE PlayerStats SET Points = Points+?"
                 + " WHERE PlayerID = ?";
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
             PreparedStatement pstmt2 = conn.prepareStatement(sql2);
             // set the corresponding param
@@ -83,8 +103,12 @@ public class PlayerStatsDb {
         String sql = "UPDATE PlayerStats SET Shots = Shots+?"
                 + " WHERE PlayerID = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param

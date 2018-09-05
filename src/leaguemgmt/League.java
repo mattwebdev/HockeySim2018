@@ -1,10 +1,11 @@
 package leaguemgmt;
 
-import database.SQLiteJDBCDriverConnection;
+import database.JDBCConnection;
 import database.ScheduleDb;
 import database.TeamDb;
 import development.Development;
 import matchsim.Game;
+import org.sqlite.JDBC;
 import startup.TeamGen;
 import team.Team;
 
@@ -14,7 +15,8 @@ import java.util.Random;
 
 public class League {
     public static void main(String[] args) {
-        SQLiteJDBCDriverConnection.createNewDatabase();
+
+        JDBCConnection.createNewDatabase();
         Random rand = new Random();
 
 
@@ -25,7 +27,7 @@ public class League {
                 Game g = new Game(m.getHomeTeamID(), m.getAwayTeamID());
                 g.sim();
             }
-        }*/
+        }
         Schedule sch = new Schedule(8, 2018);
         ArrayList<ArrayList<Matchup>> s = sch.getSchedule();
         for(ArrayList<Matchup> game: s){
@@ -33,7 +35,7 @@ public class League {
                 System.out.println(m.getHomeTeamID() + " vs " + m.getAwayTeamID());
                 System.out.println("\n");
             }
-        }
+        }*/
 
     }
 }

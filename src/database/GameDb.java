@@ -11,8 +11,13 @@ public class GameDb {
         String sql = "INSERT INTO Game" +
                 "(homeID,AwayID, GameLog,HomeGoals,AwayGoals,HomeShots,AwayShots) " +
                 "VALUES(?,?,?,?,?,?,?)";
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try(Connection conn = DriverManager.getConnection(url)){
+
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setInt(1, homeID);
             pstmt.setInt(2, awayID);

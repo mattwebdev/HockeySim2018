@@ -26,8 +26,12 @@ public class TeamDb {
                 "NULL, NULL," +
                 "NULL, NULL)";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -75,8 +79,14 @@ public class TeamDb {
     }
     public static int getPlayerAtPosition(int teamid, String pos){
         String sql = "SELECT " + pos + " FROM Team WHERE teamid = ?";
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+
+
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return -1;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -93,8 +103,12 @@ public class TeamDb {
     public static void updateTeamAssignment(int teamid, int pid, String pos){
         String sql = "UPDATE Team SET " + pos + " = ? WHERE teamid = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -160,8 +174,12 @@ public class TeamDb {
     public static void updateWins(int teamid){
         String sql = "UPDATE Team SET Wins= Wins+1 WHERE teamid = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -175,8 +193,12 @@ public class TeamDb {
     public static void updateLoses(int teamid){
         String sql = "UPDATE Team SET Loses= Loses+1 WHERE teamid = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
@@ -190,8 +212,12 @@ public class TeamDb {
     public static void updateTies(int teamid){
         String sql = "UPDATE Team SET Ties= Ties+1 WHERE teamid = ?";
 
-        String url = "jdbc:sqlite:C:/sqlite/dbs/hockeyDb.db";
-        try (Connection conn = DriverManager.getConnection(url)){
+        Connection conn = JDBCConnection.getConnection();
+        if(conn == null){
+            System.out.println("Error connecting to db");
+            return;
+        }
+        try{
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             // set the corresponding param
